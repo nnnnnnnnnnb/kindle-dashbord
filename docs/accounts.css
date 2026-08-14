@@ -12,14 +12,14 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .accounts-page { display: flex; flex-direction: column; width: 100%; height: 100%; padding: 8px 16px; }
 .accounts-table { display: block; overflow: hidden; border: 2px solid #111; background: #fff; }
 .table-head, .account-row { display: table; width: 100%; table-layout: fixed; }
-.table-head { height: 36px; border-bottom: 2px solid #111; background: #f4f4f4; font-weight: 700; }
+.table-head { height: 36px; border-bottom: 2px solid #111; background: #f4f4f4; font-size: 14px; font-weight: 700; }
 .table-head > div, .account-row > div { display: table-cell; vertical-align: middle; }
-.table-head .name-cell, .account-row .name-cell { width: 34%; }
-.table-head .today-cell, .account-row .today-cell { width: 16%; }
+.table-head .name-cell, .account-row .name-cell { width: 28%; }
+.table-head .today-cell, .account-row .today-cell { width: 17%; }
 .table-head .quota-cell, .account-row .quota-cell { width: 24%; }
-.table-head .reset-cell, .account-row .reset-cell { width: 16%; }
-.table-head .requests-cell, .account-row .requests-cell { width: 10%; }
-.table-head > div { padding: 0 7px; white-space: nowrap; }
+.table-head .reset-cell, .account-row .reset-cell { width: 17%; }
+.table-head .requests-cell, .account-row .requests-cell { width: 14%; }
+.table-head > div { padding: 0 5px; white-space: nowrap; }
 .table-body { overflow: hidden; }
 .account-row { height: 82px; border-bottom: 1px solid #999; }
 .account-row:last-child { border-bottom: 0; }
@@ -29,7 +29,7 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .account-name { overflow: hidden; color: #111; font-size: 14px; font-weight: 700; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
 .account-id { margin-top: 3px; color: #666; font-family: "Courier New", monospace; font-size: 10px; }
 .today-cell, .requests-cell { color: #111; font-family: "Courier New", monospace; font-size: 16px; font-weight: 700; }
-.table-head .today-cell, .table-head .requests-cell { font-family: Arial, sans-serif; font-size: 12px; }
+.table-head .today-cell, .table-head .requests-cell { font-family: Arial, sans-serif; font-size: 14px; }
 .account-row .today-cell { padding-top: 30px; }
 .quota-cell { padding-top: 15px !important; }
 .quota-item { display: table; width: 100%; table-layout: fixed; margin-bottom: 8px; }
