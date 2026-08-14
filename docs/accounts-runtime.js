@@ -50,7 +50,7 @@
 
   function quotaItem(value) {
     var left = remaining(value);
-    return '<div class="quota-item"><span class="quota-label" aria-hidden="true"></span>' +
+    return '<div class="quota-item">' +
       '<span class="quota-number">' + (left == null ? '—' : left + '%') + '</span>' +
       '<span class="mini-bar"><span style="width:' + (left == null ? 0 : left) + '%"></span></span></div>';
   }
