@@ -1,24 +1,6 @@
-config.json
-.env
-.env.*
-!.env.example
-
-state/
 dist/
-release/
-history/
-logs/
-screenshots/private/
+node_modules/
 
-*.log
-*.jsonl
-*.bak
-*.tmp
-*.kpkg
-
-.claude/
-.codex/
-.kimi-code/
+.DS_Store
 .idea/
 .vscode/
-node_modules/

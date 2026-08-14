@@ -1,0 +1,160 @@
+(function (win, doc) {
+  'use strict';
+
+  var data = win.ACCOUNTS_DATA || { items: [] };
+  var rows = doc.getElementById('accountRows');
+
+  function text(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function percent(value) {
+    var number = Number(value);
+    return isFinite(number) ? Math.max(0, Math.min(100, Math.round(number))) : null;
+  }
+
+  function resetText(value) {
+    var target = Date.parse(value || '');
+    if (!target) return '—';
+    var minutes = Math.max(0, Math.ceil((target - Date.now()) / 60000));
+    if (!minutes) return '现在';
+    var days = Math.floor(minutes / 1440);
+    var hours = Math.floor((minutes % 1440) / 60);
+    var rest = minutes % 60;
+    if (days) return days + '天' + hours + '小时';
+    if (hours) return hours + '小时' + rest + '分';
+    return rest + '分';
+  }
+
+  function remaining(value) {
+    var used = percent(value);
+    return used == null ? null : Math.max(0, 100 - used);
+  }
+
+  function quotaItem(label, value) {
+    var left = remaining(value);
+    return '<div class="quota-item"><span class="quota-label">' + label + '</span>' +
+      '<span class="quota-number">' + (left == null ? '—' : left + '%') + '</span>' +
+      '<span class="mini-bar"><span style="width:' + (left == null ? 0 : left) + '%"></span></span></div>';
+  }
+
+  function quotaBlock(account) {
+    var block = doc.createElement('div');
+    block.innerHTML = quotaItem('5h', account.fiveHour) + quotaItem('7d', account.weekly);
+    return block;
+  }
+
+  function renderAccount(account) {
+    var row = doc.createElement('article');
+    var name = doc.createElement('div');
+    var group = doc.createElement('div');
+    var quota = doc.createElement('div');
+    var reset = doc.createElement('div');
+    var requests = doc.createElement('div');
+
+    row.className = 'account-row';
+
+    name.className = 'name-cell';
+    name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(account.name) + '</div>' +
+      '<div class="account-id">#' + text(account.id == null ? '—' : account.id) + '</div>';
+
+    group.className = 'group-cell';
+    group.innerHTML = account.group
+      ? '<span class="group-pill">' + text(account.group) + '</span>'
+      : '<span class="group-empty">—</span>';
+
+    quota.className = 'quota-cell';
+    quota.appendChild(quotaBlock(account));
+
+    reset.className = 'reset-cell';
+    reset.innerHTML = '<div><span class="reset-label">5h</span>' + resetText(account.fiveHourResetAt) + '</div>' +
+      '<div><span class="reset-label">7d</span>' + resetText(account.weeklyResetAt) + '</div>';
+
+    requests.className = 'requests-cell';
+    requests.textContent = account.weekRequests == null ? '—' : String(account.weekRequests);
+
+    row.append(name, group, todayCell(account), quota, reset, requests);
+    return row;
+  }
+
+  function todayCell(account) {
+    var cell = doc.createElement('div');
+    cell.className = 'today-cell';
+    cell.textContent = account.todayRequests == null ? '—' : String(account.todayRequests);
+    return cell;
+  }
+
+  function normalizeResponse(payload) {
+    var source = payload && payload.data ? payload.data : payload;
+    var items = source && Array.isArray(source.items) ? source.items : [];
+    return {
+      total: source && source.total != null ? source.total : items.length,
+      items: items.map(function (item) {
+        var extra = item.extra || {};
+        var group = item.groups && item.groups[0] ? item.groups[0].name : '';
+        return {
+          id: item.id,
+          name: item.name,
+          group: group,
+          status: item.status,
+          schedulable: item.schedulable,
+          fiveHour: extra.codex_5h_used_percent,
+          weekly: extra.codex_7d_used_percent,
+          fiveHourResetAt: extra.codex_5h_reset_at,
+          weeklyResetAt: extra.codex_7d_reset_at,
+          todayRequests: item.todayRequests == null ? (item.today_request_count == null ? item.today && item.today.requests : item.today_request_count) : item.todayRequests,
+          weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests
+        };
+      })
+    };
+  }
+
+  function mergeBatchData(accountPayload, usagePayload, todayPayload) {
+    var normalized = normalizeResponse(accountPayload);
+    var usageRoot = usagePayload && usagePayload.data ? usagePayload.data : usagePayload || {};
+    var usage = usageRoot.usage || {};
+    var todayRoot = todayPayload && todayPayload.data ? todayPayload.data : todayPayload || {};
+    var today = todayRoot.stats || {};
+
+    normalized.items.forEach(function (account) {
+      var byWindow = usage[String(account.id)] || {};
+      var fiveHour = byWindow.five_hour || {};
+      var sevenDay = byWindow.seven_day || {};
+      var todayStats = today[String(account.id)] || {};
+      var sevenStats = sevenDay.window_stats || {};
+
+      account.fiveHour = fiveHour.utilization;
+      account.weekly = sevenDay.utilization;
+      account.fiveHourResetAt = fiveHour.resets_at;
+      account.weeklyResetAt = sevenDay.resets_at;
+      account.todayRequests = todayStats.requests;
+      account.weekRequests = sevenStats.requests;
+    });
+    return normalized;
+  }
+
+  win.renderAccountsResponse = function (payload) {
+    data = normalizeResponse(payload);
+    render();
+  };
+
+  // Merge the three admin responses without exposing the admin key in the page.
+  win.renderAccountBatches = function (accountPayload, usagePayload, todayPayload) {
+    data = mergeBatchData(accountPayload, usagePayload, todayPayload);
+    render();
+  };
+
+  function render() {
+    var items = data.items || [];
+    rows.textContent = '';
+    items.forEach(function (account) { rows.appendChild(renderAccount(account)); });
+    doc.getElementById('accountCount').textContent = '共 ' + (data.total == null ? items.length : data.total) + ' 个账号';
+  }
+
+  render();
+}(window, document));

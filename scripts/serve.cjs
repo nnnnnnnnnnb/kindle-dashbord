@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
-const { ROOT } = require('../src/lib/config.cjs');
+const ROOT = path.resolve(__dirname, '..');
 
 const root = path.join(ROOT, 'dist');
 const port = Number(process.env.PORT || 8787);
