@@ -38,8 +38,13 @@
     try {
       var node = doc.getElementById('updatedAt');
       if (!node) return;
-      var now = new Date();
-      node.innerHTML = twoDigits(now.getDate()) + ' ' + twoDigits(now.getHours()) + ':' + twoDigits(now.getMinutes());
+      var target = Date.parse(data && data.updatedAt || '');
+      if (!target) {
+        node.innerHTML = '';
+        return;
+      }
+      var updated = new Date(target);
+      node.innerHTML = twoDigits(updated.getDate()) + ' ' + twoDigits(updated.getHours()) + ':' + twoDigits(updated.getMinutes());
     } catch (ignore) {
       // 老版 Kindle 浏览器的时间显示失败时，不影响账号列表渲染。
     }

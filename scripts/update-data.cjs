@@ -131,6 +131,8 @@ async function main() {
   const usage = await post('/api/v1/admin/accounts/usage/batch', { account_ids: accountIds, force: true });
   const today = await post('/api/v1/admin/accounts/today-stats/batch', { account_ids: accountIds });
   const payload = {
+    // 记录本次用量请求完成时间，页面展示它而不是页面打开时间。
+    updatedAt: new Date().toISOString(),
     total: accountIds.length,
     items: pickAccounts({
       data: { items: selectedAccounts },
