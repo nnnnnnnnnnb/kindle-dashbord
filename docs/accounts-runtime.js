@@ -48,16 +48,16 @@
     return used == null ? null : Math.max(0, 100 - used);
   }
 
-  function quotaItem(label, value) {
+  function quotaItem(value) {
     var left = remaining(value);
-    return '<div class="quota-item"><span class="quota-label">' + label + '</span>' +
+    return '<div class="quota-item"><span class="quota-label" aria-hidden="true"></span>' +
       '<span class="quota-number">' + (left == null ? '—' : left + '%') + '</span>' +
       '<span class="mini-bar"><span style="width:' + (left == null ? 0 : left) + '%"></span></span></div>';
   }
 
   function quotaBlock(account) {
     var block = doc.createElement('div');
-    block.innerHTML = quotaItem('7d', account.weekly);
+    block.innerHTML = quotaItem(account.weekly);
     return block;
   }
 
