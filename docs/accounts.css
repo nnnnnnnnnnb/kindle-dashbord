@@ -25,20 +25,20 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .account-row:last-child { border-bottom: 0; }
 .account-row > div { min-width: 0; padding: 11px 7px; }
 .account-row.disabled .account-name { color: #666; }
-.name-cell { overflow: hidden; }
+.account-row .name-cell { overflow: hidden; }
 .account-name { overflow: hidden; color: #111; font-size: 14px; font-weight: 700; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
 .account-id { margin-top: 3px; color: #666; font-family: "Courier New", monospace; font-size: 10px; }
-.today-cell, .requests-cell { color: #111; font-family: "Courier New", monospace; font-size: 16px; font-weight: 700; }
-.table-head .today-cell, .table-head .requests-cell { font-family: Arial, sans-serif; font-size: 14px; }
+.account-row .today-cell, .account-row .requests-cell { color: #111; font-family: "Courier New", monospace; font-size: 16px; font-weight: 700; }
+.table-head .today-cell, .table-head .requests-cell { color: #111; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; }
 .account-row .today-cell { padding-top: 30px; }
-.quota-cell { padding-top: 15px !important; }
-.quota-item { display: table; width: 100%; table-layout: fixed; margin-bottom: 8px; }
-.quota-item:last-child { margin-bottom: 0; }
-.quota-item .quota-label, .quota-item .quota-number, .quota-item .mini-bar { display: table-cell; vertical-align: middle; }
-.quota-label { width: 22px; color: #555; font-family: Arial, sans-serif; font-size: 10px; }
-.quota-number { width: 38px; font-family: "Courier New", monospace; font-size: 14px; font-weight: 700; text-align: right; }
-.mini-bar { height: 7px; border: 1px solid #555; background: #eee; }
-.mini-bar span { display: block; height: 7px; background: #111; }
+.account-row .quota-cell { padding-top: 15px !important; }
+.account-row .quota-item { display: table; width: 100%; table-layout: fixed; margin-bottom: 8px; }
+.account-row .quota-item:last-child { margin-bottom: 0; }
+.account-row .quota-item .quota-label, .account-row .quota-item .quota-number, .account-row .quota-item .mini-bar { display: table-cell; vertical-align: middle; }
+.account-row .quota-label { width: 22px; color: #555; font-family: Arial, sans-serif; font-size: 10px; }
+.account-row .quota-number { width: 38px; font-family: "Courier New", monospace; font-size: 14px; font-weight: 700; text-align: right; }
+.account-row .mini-bar { height: 7px; border: 1px solid #555; background: #eee; }
+.account-row .mini-bar span { display: block; height: 7px; background: #111; }
 .account-row .reset-cell { padding-top: 30px !important; color: #111; font-family: "Courier New", monospace; font-size: 11px; font-weight: 700; white-space: nowrap; }
 .table-head .reset-cell { font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; }
 .account-row .requests-cell { overflow: hidden; padding-top: 30px !important; font-size: 13px; text-align: right; white-space: nowrap; }
