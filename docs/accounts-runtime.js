@@ -78,7 +78,12 @@
     requests.className = 'requests-cell';
     requests.textContent = account.weekRequests == null ? '—' : String(account.weekRequests);
 
-    row.append(name, group, todayCell(account), quota, reset, requests);
+    row.appendChild(name);
+    row.appendChild(group);
+    row.appendChild(todayCell(account));
+    row.appendChild(quota);
+    row.appendChild(reset);
+    row.appendChild(requests);
     return row;
   }
 
