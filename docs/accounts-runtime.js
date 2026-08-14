@@ -69,7 +69,7 @@
     var reset = doc.createElement('div');
     var requests = doc.createElement('div');
 
-    row.className = 'account-row';
+    row.className = 'account-row' + (isDisabled(account) ? ' disabled' : '');
 
     name.className = 'name-cell';
     name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(shortName(account.name)) + '</div>' +
@@ -89,13 +89,17 @@
     requests.className = 'requests-cell';
     requests.textContent = formatCount(account.weekRequests);
 
-    row.appendChild(name);
     row.appendChild(group);
+    row.appendChild(name);
     row.appendChild(todayCell(account));
     row.appendChild(quota);
     row.appendChild(reset);
     row.appendChild(requests);
     return row;
+  }
+
+  function isDisabled(account) {
+    return account.schedulable === false || (account.status && account.status !== 'active');
   }
 
   function todayCell(account) {
@@ -118,13 +122,13 @@
           name: item.name,
           group: group,
           status: item.status,
-          schedulable: item.schedulable,
           fiveHour: extra.codex_5h_used_percent,
           weekly: extra.codex_7d_used_percent,
           fiveHourResetAt: extra.codex_5h_reset_at,
           weeklyResetAt: extra.codex_7d_reset_at,
           todayRequests: item.todayRequests == null ? (item.today_request_count == null ? item.today && item.today.requests : item.today_request_count) : item.todayRequests,
-          weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests
+          weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests,
+          schedulable: item.schedulable
         };
       })
     };
@@ -167,6 +171,9 @@
 
   function render() {
     var items = data.items || [];
+    items = items.slice().sort(function (left, right) {
+      return Number(isDisabled(left)) - Number(isDisabled(right));
+    });
     rows.textContent = '';
     items.forEach(function (account) { rows.appendChild(renderAccount(account)); });
   }

@@ -14,10 +14,10 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .table-head, .account-row { display: table; width: 100%; table-layout: fixed; }
 .table-head { height: 36px; border-bottom: 2px solid #111; background: #f4f4f4; font-weight: 700; }
 .table-head > div, .account-row > div { display: table-cell; vertical-align: middle; }
-.table-head .name-cell, .account-row .name-cell { width: 28%; }
-.table-head .group-cell, .account-row .group-cell { width: 14%; }
+.table-head .group-cell, .account-row .group-cell { width: 18%; }
+.table-head .name-cell, .account-row .name-cell { width: 26%; }
 .table-head .today-cell, .account-row .today-cell { width: 13%; }
-.table-head .quota-cell, .account-row .quota-cell { width: 22%; }
+.table-head .quota-cell, .account-row .quota-cell { width: 20%; }
 .table-head .reset-cell, .account-row .reset-cell { width: 13%; }
 .table-head .requests-cell, .account-row .requests-cell { width: 10%; }
 .table-head > div { padding: 0 7px; white-space: nowrap; }
@@ -25,6 +25,7 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .account-row { height: 82px; border-bottom: 1px solid #999; }
 .account-row:last-child { border-bottom: 0; }
 .account-row > div { min-width: 0; padding: 11px 7px; }
+.account-row.disabled .account-name { color: #666; }
 .name-cell { overflow: hidden; }
 .account-name { overflow: hidden; color: #111; font-size: 14px; font-weight: 700; line-height: 1.25; text-overflow: ellipsis; white-space: nowrap; }
 .account-id { margin-top: 3px; color: #666; font-family: "Courier New", monospace; font-size: 10px; }
