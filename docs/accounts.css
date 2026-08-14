@@ -17,27 +17,28 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .table-head, .account-row { display: table; width: 100%; table-layout: fixed; }
 .table-head { height: 36px; border-bottom: 2px solid #111; background: #f4f4f4; font-weight: 700; }
 .table-head > div, .account-row > div { display: table-cell; vertical-align: middle; }
-.table-head .name-cell, .account-row .name-cell { width: 30%; }
-.table-head .group-cell, .account-row .group-cell { width: 15%; }
-.table-head .today-cell, .account-row .today-cell { width: 12%; }
-.table-head .quota-cell, .account-row .quota-cell { width: 23%; }
+.table-head .name-cell, .account-row .name-cell { width: 28%; }
+.table-head .group-cell, .account-row .group-cell { width: 14%; }
+.table-head .today-cell, .account-row .today-cell { width: 13%; }
+.table-head .quota-cell, .account-row .quota-cell { width: 22%; }
 .table-head .reset-cell, .account-row .reset-cell { width: 13%; }
-.table-head .requests-cell, .account-row .requests-cell { width: 7%; }
-.table-head > div { padding: 0 7px; }
+.table-head .requests-cell, .account-row .requests-cell { width: 10%; }
+.table-head > div { padding: 0 7px; white-space: nowrap; }
 .table-body { min-height: 0; flex: 1; overflow: hidden; }
 .account-row { height: 82px; border-bottom: 1px solid #999; }
 .account-row:last-child { border-bottom: 0; }
 .account-row > div { min-width: 0; padding: 11px 7px; }
 .name-cell { overflow: hidden; }
-.sort-head { display: flex; align-items: center; gap: 5px; }
+.sort-head { white-space: nowrap; }
 .sort-arrow { color: #111; font-size: 9px; }
 .account-name { display: -webkit-box; overflow: hidden; color: #111; font-size: 14px; font-weight: 700; line-height: 1.25; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .account-id { margin-top: 3px; color: #666; font-family: "Courier New", monospace; font-size: 10px; }
-.group-cell { display: flex; align-items: flex-start; }
+.account-row .group-cell { vertical-align: top; }
 .group-pill { display: inline-block; max-width: 100%; overflow: hidden; padding: 3px 6px; border: 1px solid #555; border-radius: 2px; color: #111; text-overflow: ellipsis; white-space: nowrap; }
 .group-empty { color: #666; }
 .today-cell, .requests-cell { color: #111; font-family: "Courier New", monospace; font-size: 16px; font-weight: 700; }
-.today-cell::before { content: "请求 "; display: block; margin-bottom: 3px; color: #666; font-family: Arial, sans-serif; font-size: 10px; font-weight: 400; }
+.table-head .today-cell, .table-head .requests-cell { font-family: Arial, sans-serif; font-size: 12px; }
+.account-row .today-cell::before { content: "请求 "; display: block; margin-bottom: 3px; color: #666; font-family: Arial, sans-serif; font-size: 10px; font-weight: 400; }
 .quota-cell { padding-top: 15px !important; }
 .quota-item { display: table; width: 100%; table-layout: fixed; margin-bottom: 8px; }
 .quota-item:last-child { margin-bottom: 0; }
@@ -48,7 +49,7 @@ body { width: 600px; height: 800px; overflow: hidden; }
 .mini-bar span { display: block; height: 7px; background: #111; }
 .reset-cell { padding-top: 22px !important; color: #111; font-family: "Courier New", monospace; font-size: 11px; font-weight: 700; line-height: 2; white-space: nowrap; }
 .reset-label { display: inline-block; width: 24px; color: #555; font-family: Arial, sans-serif; font-size: 10px; font-weight: 400; }
-.requests-cell { padding-top: 30px !important; text-align: right; }
+.requests-cell { overflow: hidden; padding-top: 30px !important; font-size: 13px; text-align: right; white-space: nowrap; }
 .page-footer { display: flex; justify-content: space-between; height: 22px; padding: 7px 2px 0; color: #555; font-size: 10px; }
 
 @media (max-width: 599px) {
