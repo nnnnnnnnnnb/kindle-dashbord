@@ -18,6 +18,18 @@
     return isFinite(number) ? Math.max(0, Math.min(100, Math.round(number))) : null;
   }
 
+  function formatCount(value) {
+    var number = Number(value);
+    if (!isFinite(number)) return '—';
+    if (number >= 1000) return (number / 1000).toFixed(2) + 'K';
+    return String(Math.round(number));
+  }
+
+  function shortName(value) {
+    var name = String(value == null ? '' : value);
+    return name.length > 7 ? name.slice(0, 7) + '…' : name;
+  }
+
   function resetText(value) {
     var target = Date.parse(value || '');
     if (!target) return '—';
@@ -45,7 +57,7 @@
 
   function quotaBlock(account) {
     var block = doc.createElement('div');
-    block.innerHTML = quotaItem('5h', account.fiveHour) + quotaItem('7d', account.weekly);
+    block.innerHTML = quotaItem('7d', account.weekly);
     return block;
   }
 
@@ -60,7 +72,7 @@
     row.className = 'account-row';
 
     name.className = 'name-cell';
-    name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(account.name) + '</div>' +
+    name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(shortName(account.name)) + '</div>' +
       '<div class="account-id">#' + text(account.id == null ? '—' : account.id) + '</div>';
 
     group.className = 'group-cell';
@@ -72,11 +84,10 @@
     quota.appendChild(quotaBlock(account));
 
     reset.className = 'reset-cell';
-    reset.innerHTML = '<div><span class="reset-label">5h</span>' + resetText(account.fiveHourResetAt) + '</div>' +
-      '<div><span class="reset-label">7d</span>' + resetText(account.weeklyResetAt) + '</div>';
+    reset.textContent = resetText(account.weeklyResetAt);
 
     requests.className = 'requests-cell';
-    requests.textContent = account.weekRequests == null ? '—' : String(account.weekRequests);
+    requests.textContent = formatCount(account.weekRequests);
 
     row.appendChild(name);
     row.appendChild(group);
@@ -90,7 +101,7 @@
   function todayCell(account) {
     var cell = doc.createElement('div');
     cell.className = 'today-cell';
-    cell.textContent = account.todayRequests == null ? '—' : String(account.todayRequests);
+    cell.textContent = formatCount(account.todayRequests);
     return cell;
   }
 
@@ -158,7 +169,6 @@
     var items = data.items || [];
     rows.textContent = '';
     items.forEach(function (account) { rows.appendChild(renderAccount(account)); });
-    doc.getElementById('accountCount').textContent = '共 ' + (data.total == null ? items.length : data.total) + ' 个账号';
   }
 
   render();

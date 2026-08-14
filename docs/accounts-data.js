@@ -6,11 +6,11 @@ window.ACCOUNTS_DATA = {
       "id": 27,
       "name": "客服_龙井的邮箱_0807",
       "group": "客服",
-      "todayRequests": 3723,
-      "weekRequests": 10594,
+      "todayRequests": 3733,
+      "weekRequests": 10605,
       "fiveHour": 0,
       "weekly": 37,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
+      "fiveHourResetAt": "2026-08-14T12:55:35+08:00",
       "weeklyResetAt": "2026-08-20T11:33:25+08:00"
     },
     {
@@ -21,7 +21,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 7406,
       "fiveHour": 0,
       "weekly": 29,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
+      "fiveHourResetAt": "2026-08-14T12:55:35+08:00",
       "weeklyResetAt": "2026-08-20T11:30:18+08:00"
     },
     {
@@ -32,7 +32,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2195,
       "fiveHour": 0,
       "weekly": 96,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
+      "fiveHourResetAt": "2026-08-14T12:55:35+08:00",
       "weeklyResetAt": "2026-08-20T11:30:25+08:00"
     },
     {
@@ -43,8 +43,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 639,
       "fiveHour": 0,
       "weekly": 14,
-      "fiveHourResetAt": "2026-08-14T12:47:33+08:00",
-      "weeklyResetAt": "2026-08-20T17:09:26+08:00"
+      "fiveHourResetAt": "2026-08-14T12:55:37+08:00",
+      "weeklyResetAt": "2026-08-20T17:09:27+08:00"
     },
     {
       "id": 32,
@@ -54,8 +54,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3698,
       "fiveHour": 0,
       "weekly": 82,
-      "fiveHourResetAt": "2026-08-14T12:47:35+08:00",
-      "weeklyResetAt": "2026-08-20T17:20:58+08:00"
+      "fiveHourResetAt": "2026-08-14T12:55:37+08:00",
+      "weeklyResetAt": "2026-08-20T17:20:56+08:00"
     },
     {
       "id": 28,
@@ -65,19 +65,19 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 1657,
       "fiveHour": 0,
       "weekly": 47,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
-      "weeklyResetAt": "2026-08-20T11:33:45+08:00"
+      "fiveHourResetAt": "2026-08-14T12:55:37+08:00",
+      "weeklyResetAt": "2026-08-20T11:33:46+08:00"
     },
     {
       "id": 29,
       "name": "黑脸号_客服0803_20x_maglayakupec7713@hotmail.com",
       "group": "",
       "todayRequests": 0,
-      "weekRequests": 2166,
+      "weekRequests": 2167,
       "fiveHour": 0,
       "weekly": 100,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
-      "weeklyResetAt": "2026-08-20T11:30:55+08:00"
+      "fiveHourResetAt": "2026-08-14T12:55:35+08:00",
+      "weeklyResetAt": "2026-08-20T11:30:54+08:00"
     },
     {
       "id": 25,
@@ -87,7 +87,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2318,
       "fiveHour": 0,
       "weekly": 100,
-      "fiveHourResetAt": "2026-08-14T12:47:32+08:00",
+      "fiveHourResetAt": "2026-08-14T12:55:36+08:00",
       "weeklyResetAt": "2026-08-20T11:31:37+08:00"
     }
   ]
