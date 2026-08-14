@@ -35,10 +35,14 @@
   }
 
   function updateTimestamp() {
-    var node = doc.getElementById('updatedAt');
-    if (!node) return;
-    var now = new Date();
-    node.textContent = twoDigits(now.getDate()) + ' ' + twoDigits(now.getHours()) + ':' + twoDigits(now.getMinutes());
+    try {
+      var node = doc.getElementById('updatedAt');
+      if (!node) return;
+      var now = new Date();
+      node.innerHTML = twoDigits(now.getDate()) + ' ' + twoDigits(now.getHours()) + ':' + twoDigits(now.getMinutes());
+    } catch (ignore) {
+      // 老版 Kindle 浏览器的时间显示失败时，不影响账号列表渲染。
+    }
   }
 
   function resetText(value) {
@@ -178,9 +182,9 @@
     items = items.slice().sort(function (left, right) {
       return Number(isDisabled(left)) - Number(isDisabled(right));
     });
-    updateTimestamp();
     rows.textContent = '';
     items.forEach(function (account) { rows.appendChild(renderAccount(account)); });
+    updateTimestamp();
   }
 
   render();
