@@ -8,27 +8,18 @@
 </head>
 <body>
   <main class="accounts-page">
-    <header class="page-header">
-      <h1>账号额度</h1>
-      <span id="accountCount">—</span>
-    </header>
     <section class="accounts-table" aria-label="账号列表">
       <div class="table-head">
-        <div class="name-cell sort-head">账号 <span class="sort-arrow" aria-hidden="true">▲</span></div>
-        <div class="group-cell">分组</div>
+        <div class="name-cell"><span id="updatedAt" class="updated-at" aria-label="更新时间"></span></div>
         <div class="today-cell">今日请求</div>
-        <div class="quota-cell">剩余额度</div>
-        <div class="reset-cell">重置</div>
+        <div class="quota-cell">7d剩余</div>
+        <div class="reset-cell">7d重置</div>
         <div class="requests-cell">7d 请求</div>
       </div>
       <div id="accountRows" class="table-body"></div>
     </section>
-    <footer class="page-footer">
-      <span>数据按账号返回的 Codex 7d 窗口计算</span>
-      <span>本地脱敏演示</span>
-    </footer>
   </main>
   <script src="accounts-data.js"></script>
-  <script src="accounts-runtime.js"></script>
+  <script src="accounts-runtime.js?v=2"></script>
 </body>
 </html>

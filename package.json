@@ -9,6 +9,7 @@
     "node": ">=18"
   },
   "scripts": {
+    "update-data": "node scripts/update-data.cjs",
     "build": "node scripts/build-site.cjs",
     "serve": "node scripts/serve.cjs",
     "start": "npm run build && npm run serve",
