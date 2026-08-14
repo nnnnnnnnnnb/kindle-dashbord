@@ -64,7 +64,6 @@
   function renderAccount(account) {
     var row = doc.createElement('article');
     var name = doc.createElement('div');
-    var group = doc.createElement('div');
     var quota = doc.createElement('div');
     var reset = doc.createElement('div');
     var requests = doc.createElement('div');
@@ -75,11 +74,6 @@
     name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(shortName(account.name)) + '</div>' +
       '<div class="account-id">#' + text(account.id == null ? '—' : account.id) + '</div>';
 
-    group.className = 'group-cell';
-    group.innerHTML = account.group
-      ? '<span class="group-pill">' + text(account.group) + '</span>'
-      : '<span class="group-empty">—</span>';
-
     quota.className = 'quota-cell';
     quota.appendChild(quotaBlock(account));
 
@@ -89,7 +83,6 @@
     requests.className = 'requests-cell';
     requests.textContent = formatCount(account.weekRequests);
 
-    row.appendChild(group);
     row.appendChild(name);
     row.appendChild(todayCell(account));
     row.appendChild(quota);
