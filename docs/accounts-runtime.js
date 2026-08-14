@@ -18,18 +18,6 @@
     return isFinite(number) ? Math.max(0, Math.min(100, Math.round(number))) : null;
   }
 
-  function formatCount(value) {
-    var number = Number(value);
-    if (!isFinite(number)) return '—';
-    if (number >= 1000) return (number / 1000).toFixed(2) + 'K';
-    return String(Math.round(number));
-  }
-
-  function shortName(value) {
-    var name = String(value == null ? '' : value);
-    return name.length > 7 ? name.slice(0, 7) + '…' : name;
-  }
-
   function resetText(value) {
     var target = Date.parse(value || '');
     if (!target) return '—';
@@ -48,57 +36,56 @@
     return used == null ? null : Math.max(0, 100 - used);
   }
 
-  function quotaItem(value) {
+  function quotaItem(label, value) {
     var left = remaining(value);
-    return '<div class="quota-item">' +
+    return '<div class="quota-item"><span class="quota-label">' + label + '</span>' +
       '<span class="quota-number">' + (left == null ? '—' : left + '%') + '</span>' +
       '<span class="mini-bar"><span style="width:' + (left == null ? 0 : left) + '%"></span></span></div>';
   }
 
   function quotaBlock(account) {
     var block = doc.createElement('div');
-    block.innerHTML = quotaItem(account.weekly);
+    block.innerHTML = quotaItem('5h', account.fiveHour) + quotaItem('7d', account.weekly);
     return block;
   }
 
   function renderAccount(account) {
     var row = doc.createElement('article');
     var name = doc.createElement('div');
+    var group = doc.createElement('div');
     var quota = doc.createElement('div');
     var reset = doc.createElement('div');
     var requests = doc.createElement('div');
 
-    row.className = 'account-row' + (isDisabled(account) ? ' disabled' : '');
+    row.className = 'account-row';
 
     name.className = 'name-cell';
-    name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(shortName(account.name)) + '</div>' +
+    name.innerHTML = '<div class="account-name" title="' + text(account.name) + '">' + text(account.name) + '</div>' +
       '<div class="account-id">#' + text(account.id == null ? '—' : account.id) + '</div>';
+
+    group.className = 'group-cell';
+    group.innerHTML = account.group
+      ? '<span class="group-pill">' + text(account.group) + '</span>'
+      : '<span class="group-empty">—</span>';
 
     quota.className = 'quota-cell';
     quota.appendChild(quotaBlock(account));
 
     reset.className = 'reset-cell';
-    reset.textContent = resetText(account.weeklyResetAt);
+    reset.innerHTML = '<div><span class="reset-label">5h</span>' + resetText(account.fiveHourResetAt) + '</div>' +
+      '<div><span class="reset-label">7d</span>' + resetText(account.weeklyResetAt) + '</div>';
 
     requests.className = 'requests-cell';
-    requests.textContent = formatCount(account.weekRequests);
+    requests.textContent = account.weekRequests == null ? '—' : String(account.weekRequests);
 
-    row.appendChild(name);
-    row.appendChild(todayCell(account));
-    row.appendChild(quota);
-    row.appendChild(reset);
-    row.appendChild(requests);
+    row.append(name, group, todayCell(account), quota, reset, requests);
     return row;
-  }
-
-  function isDisabled(account) {
-    return account.schedulable === false || (account.status && account.status !== 'active');
   }
 
   function todayCell(account) {
     var cell = doc.createElement('div');
     cell.className = 'today-cell';
-    cell.textContent = formatCount(account.todayRequests);
+    cell.textContent = account.todayRequests == null ? '—' : String(account.todayRequests);
     return cell;
   }
 
@@ -115,13 +102,13 @@
           name: item.name,
           group: group,
           status: item.status,
+          schedulable: item.schedulable,
           fiveHour: extra.codex_5h_used_percent,
           weekly: extra.codex_7d_used_percent,
           fiveHourResetAt: extra.codex_5h_reset_at,
           weeklyResetAt: extra.codex_7d_reset_at,
           todayRequests: item.todayRequests == null ? (item.today_request_count == null ? item.today && item.today.requests : item.today_request_count) : item.todayRequests,
-          weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests,
-          schedulable: item.schedulable
+          weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests
         };
       })
     };
@@ -164,11 +151,9 @@
 
   function render() {
     var items = data.items || [];
-    items = items.slice().sort(function (left, right) {
-      return Number(isDisabled(left)) - Number(isDisabled(right));
-    });
     rows.textContent = '';
     items.forEach(function (account) { rows.appendChild(renderAccount(account)); });
+    doc.getElementById('accountCount').textContent = '共 ' + (data.total == null ? items.length : data.total) + ' 个账号';
   }
 
   render();
