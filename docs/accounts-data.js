@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-24T08:00:11.943Z",
+  "updatedAt": "2026-08-24T08:15:11.548Z",
   "total": 9,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3093,
-      "weekRequests": 3092,
+      "todayRequests": 3330,
+      "weekRequests": 3328,
       "fiveHour": 0,
-      "weekly": 10,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
+      "weekly": 11,
+      "fiveHourResetAt": "2026-08-24T16:15:08+08:00",
       "weeklyResetAt": "2026-08-31T09:05:45+08:00"
     },
     {
@@ -35,11 +35,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3213,
-      "weekRequests": 3180,
+      "todayRequests": 3380,
+      "weekRequests": 3347,
       "fiveHour": 0,
-      "weekly": 11,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
+      "weekly": 12,
+      "fiveHourResetAt": "2026-08-24T16:15:08+08:00",
       "weeklyResetAt": "2026-08-31T09:02:04+08:00"
     },
     {
@@ -48,11 +48,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2627,
-      "weekRequests": 2606,
+      "todayRequests": 2804,
+      "weekRequests": 2782,
       "fiveHour": 0,
       "weekly": 9,
-      "fiveHourResetAt": "2026-08-24T16:00:11+08:00",
+      "fiveHourResetAt": "2026-08-24T16:15:10+08:00",
       "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
@@ -61,12 +61,12 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 961,
-      "weekRequests": 944,
+      "todayRequests": 1002,
+      "weekRequests": 985,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:29:30+08:00"
+      "fiveHourResetAt": "2026-08-24T16:15:11+08:00",
+      "weeklyResetAt": "2026-08-31T09:29:32+08:00"
     },
     {
       "id": 37,
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 4348,
-      "weekRequests": 4324,
+      "todayRequests": 4537,
+      "weekRequests": 4512,
       "fiveHour": 0,
-      "weekly": 20,
-      "fiveHourResetAt": "2026-08-24T16:00:11+08:00",
+      "weekly": 21,
+      "fiveHourResetAt": "2026-08-24T16:15:10+08:00",
       "weeklyResetAt": "2026-08-31T09:03:57+08:00"
     },
     {
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 974,
-      "weekRequests": 972,
+      "todayRequests": 986,
+      "weekRequests": 985,
       "fiveHour": 0,
       "weekly": 3,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
+      "fiveHourResetAt": "2026-08-24T16:15:08+08:00",
       "weeklyResetAt": "2026-08-31T09:44:35+08:00"
     },
     {
@@ -100,11 +100,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1906,
-      "weekRequests": 1904,
+      "todayRequests": 2018,
+      "weekRequests": 2017,
       "fiveHour": 0,
-      "weekly": 8,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
+      "weekly": 9,
+      "fiveHourResetAt": "2026-08-24T16:15:08+08:00",
       "weeklyResetAt": "2026-08-31T09:04:39+08:00"
     },
     {
@@ -113,12 +113,12 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1530,
-      "weekRequests": 1529,
+      "todayRequests": 1606,
+      "weekRequests": 1605,
       "fiveHour": 0,
       "weekly": 7,
-      "fiveHourResetAt": "2026-08-24T16:00:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:16:14+08:00"
+      "fiveHourResetAt": "2026-08-24T16:15:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:16:15+08:00"
     }
   ]
 };
