@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-24T05:45:10.995Z",
+  "updatedAt": "2026-08-24T06:00:11.494Z",
   "total": 9,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2037,
-      "weekRequests": 2036,
+      "todayRequests": 2115,
+      "weekRequests": 2114,
       "fiveHour": 0,
       "weekly": 7,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
       "weeklyResetAt": "2026-08-31T09:05:45+08:00"
     },
     {
@@ -35,12 +35,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1876,
-      "weekRequests": 1843,
+      "todayRequests": 2007,
+      "weekRequests": 1973,
       "fiveHour": 0,
-      "weekly": 6,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
-      "weeklyResetAt": "2026-08-31T09:02:04+08:00"
+      "weekly": 7,
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
       "id": 36,
@@ -48,11 +48,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1344,
-      "weekRequests": 1323,
+      "todayRequests": 1483,
+      "weekRequests": 1462,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-24T13:45:10+08:00",
+      "fiveHourResetAt": "2026-08-24T14:00:11+08:00",
       "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
@@ -61,12 +61,12 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 500,
-      "weekRequests": 484,
+      "todayRequests": 546,
+      "weekRequests": 529,
       "fiveHour": 0,
       "weekly": 1,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
-      "weeklyResetAt": "2026-08-31T09:29:29+08:00"
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:29:30+08:00"
     },
     {
       "id": 37,
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2849,
-      "weekRequests": 2825,
+      "todayRequests": 2992,
+      "weekRequests": 2968,
       "fiveHour": 0,
       "weekly": 16,
-      "fiveHourResetAt": "2026-08-24T13:45:10+08:00",
+      "fiveHourResetAt": "2026-08-24T14:00:11+08:00",
       "weeklyResetAt": "2026-08-31T09:03:57+08:00"
     },
     {
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 561,
-      "weekRequests": 560,
+      "todayRequests": 629,
+      "weekRequests": 627,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
       "weeklyResetAt": "2026-08-31T09:44:35+08:00"
     },
     {
@@ -100,12 +100,12 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1105,
-      "weekRequests": 1104,
+      "todayRequests": 1228,
+      "weekRequests": 1227,
       "fiveHour": 0,
-      "weekly": 4,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
-      "weeklyResetAt": "2026-08-31T09:04:38+08:00"
+      "weekly": 5,
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:04:39+08:00"
     },
     {
       "id": 25,
@@ -113,11 +113,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 971,
-      "weekRequests": 970,
+      "todayRequests": 1020,
+      "weekRequests": 1019,
       "fiveHour": 0,
       "weekly": 5,
-      "fiveHourResetAt": "2026-08-24T13:45:08+08:00",
+      "fiveHourResetAt": "2026-08-24T14:00:09+08:00",
       "weeklyResetAt": "2026-08-31T09:16:14+08:00"
     }
   ]
