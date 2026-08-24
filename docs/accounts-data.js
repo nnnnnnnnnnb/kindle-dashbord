@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-24T06:45:11.133Z",
+  "updatedAt": "2026-08-24T07:00:10.893Z",
   "total": 9,
   "items": [
     {
@@ -9,12 +9,12 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2376,
-      "weekRequests": 2374,
+      "todayRequests": 2504,
+      "weekRequests": 2503,
       "fiveHour": 0,
       "weekly": 8,
-      "fiveHourResetAt": "2026-08-24T14:45:08+08:00",
-      "weeklyResetAt": "2026-08-31T09:05:44+08:00"
+      "fiveHourResetAt": "2026-08-24T15:00:08+08:00",
+      "weeklyResetAt": "2026-08-31T09:05:45+08:00"
     },
     {
       "id": 34,
@@ -35,12 +35,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2412,
-      "weekRequests": 2378,
+      "todayRequests": 2544,
+      "weekRequests": 2511,
       "fiveHour": 0,
       "weekly": 9,
-      "fiveHourResetAt": "2026-08-24T14:45:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:02:05+08:00"
+      "fiveHourResetAt": "2026-08-24T15:00:08+08:00",
+      "weeklyResetAt": "2026-08-31T09:02:04+08:00"
     },
     {
       "id": 36,
@@ -48,11 +48,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1791,
-      "weekRequests": 1770,
+      "todayRequests": 1938,
+      "weekRequests": 1917,
       "fiveHour": 0,
-      "weekly": 5,
-      "fiveHourResetAt": "2026-08-24T14:45:10+08:00",
+      "weekly": 6,
+      "fiveHourResetAt": "2026-08-24T15:00:10+08:00",
       "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
@@ -61,11 +61,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 756,
-      "weekRequests": 740,
+      "todayRequests": 781,
+      "weekRequests": 765,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-08-24T14:45:08+08:00",
+      "fiveHourResetAt": "2026-08-24T15:00:08+08:00",
       "weeklyResetAt": "2026-08-31T09:29:29+08:00"
     },
     {
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3448,
-      "weekRequests": 3424,
+      "todayRequests": 3500,
+      "weekRequests": 3476,
       "fiveHour": 0,
       "weekly": 17,
-      "fiveHourResetAt": "2026-08-24T14:45:10+08:00",
+      "fiveHourResetAt": "2026-08-24T15:00:10+08:00",
       "weeklyResetAt": "2026-08-31T09:03:57+08:00"
     },
     {
@@ -87,12 +87,12 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 838,
-      "weekRequests": 837,
+      "todayRequests": 840,
+      "weekRequests": 839,
       "fiveHour": 0,
       "weekly": 3,
-      "fiveHourResetAt": "2026-08-24T14:45:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:44:36+08:00"
+      "fiveHourResetAt": "2026-08-24T15:00:08+08:00",
+      "weeklyResetAt": "2026-08-31T09:44:35+08:00"
     },
     {
       "id": 29,
@@ -100,11 +100,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1415,
-      "weekRequests": 1415,
+      "todayRequests": 1501,
+      "weekRequests": 1501,
       "fiveHour": 0,
       "weekly": 6,
-      "fiveHourResetAt": "2026-08-24T14:45:08+08:00",
+      "fiveHourResetAt": "2026-08-24T15:00:08+08:00",
       "weeklyResetAt": "2026-08-31T09:04:38+08:00"
     },
     {
@@ -113,11 +113,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1263,
-      "weekRequests": 1262,
+      "todayRequests": 1319,
+      "weekRequests": 1318,
       "fiveHour": 0,
       "weekly": 6,
-      "fiveHourResetAt": "2026-08-24T14:45:09+08:00",
+      "fiveHourResetAt": "2026-08-24T15:00:09+08:00",
       "weeklyResetAt": "2026-08-31T09:16:14+08:00"
     }
   ]
