@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-24T12:30:12.840Z",
+  "updatedAt": "2026-08-24T12:45:11.168Z",
   "total": 9,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5263,
-      "weekRequests": 5262,
+      "todayRequests": 5266,
+      "weekRequests": 5265,
       "fiveHour": 0,
       "weekly": 17,
-      "fiveHourResetAt": "2026-08-24T20:30:09+08:00",
+      "fiveHourResetAt": "2026-08-24T20:45:08+08:00",
       "weeklyResetAt": "2026-08-31T09:05:45+08:00"
     },
     {
@@ -23,7 +23,7 @@ window.ACCOUNTS_DATA = {
       "status": "active",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 23937,
+      "weekRequests": 23908,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-21T10:30:11+08:00",
@@ -36,11 +36,11 @@ window.ACCOUNTS_DATA = {
       "status": "active",
       "schedulable": true,
       "todayRequests": 4596,
-      "weekRequests": 4563,
+      "weekRequests": 4562,
       "fiveHour": 0,
       "weekly": 16,
-      "fiveHourResetAt": "2026-08-24T20:30:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:02:04+08:00"
+      "fiveHourResetAt": "2026-08-24T20:45:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
       "id": 36,
@@ -52,7 +52,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 4146,
       "fiveHour": 0,
       "weekly": 14,
-      "fiveHourResetAt": "2026-08-24T20:30:11+08:00",
+      "fiveHourResetAt": "2026-08-24T20:45:10+08:00",
       "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
@@ -61,11 +61,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1836,
-      "weekRequests": 1820,
+      "todayRequests": 1900,
+      "weekRequests": 1884,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-24T20:30:09+08:00",
+      "fiveHourResetAt": "2026-08-24T20:45:08+08:00",
       "weeklyResetAt": "2026-08-31T09:29:29+08:00"
     },
     {
@@ -75,11 +75,11 @@ window.ACCOUNTS_DATA = {
       "status": "active",
       "schedulable": true,
       "todayRequests": 6210,
-      "weekRequests": 6185,
+      "weekRequests": 6186,
       "fiveHour": 0,
       "weekly": 27,
-      "fiveHourResetAt": "2026-08-24T20:30:12+08:00",
-      "weeklyResetAt": "2026-08-31T09:03:58+08:00"
+      "fiveHourResetAt": "2026-08-24T20:45:10+08:00",
+      "weeklyResetAt": "2026-08-31T09:03:57+08:00"
     },
     {
       "id": 28,
@@ -87,12 +87,12 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1411,
-      "weekRequests": 1410,
+      "todayRequests": 1429,
+      "weekRequests": 1428,
       "fiveHour": 0,
       "weekly": 5,
-      "fiveHourResetAt": "2026-08-24T20:30:10+08:00",
-      "weeklyResetAt": "2026-08-31T09:44:35+08:00"
+      "fiveHourResetAt": "2026-08-24T20:45:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:44:36+08:00"
     },
     {
       "id": 29,
@@ -100,11 +100,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2856,
-      "weekRequests": 2854,
+      "todayRequests": 2862,
+      "weekRequests": 2861,
       "fiveHour": 0,
       "weekly": 13,
-      "fiveHourResetAt": "2026-08-24T20:30:09+08:00",
+      "fiveHourResetAt": "2026-08-24T20:45:08+08:00",
       "weeklyResetAt": "2026-08-31T09:04:39+08:00"
     },
     {
@@ -113,11 +113,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2877,
-      "weekRequests": 2875,
+      "todayRequests": 2897,
+      "weekRequests": 2896,
       "fiveHour": 0,
       "weekly": 13,
-      "fiveHourResetAt": "2026-08-24T20:30:09+08:00",
+      "fiveHourResetAt": "2026-08-24T20:45:08+08:00",
       "weeklyResetAt": "2026-08-31T09:16:14+08:00"
     }
   ]
