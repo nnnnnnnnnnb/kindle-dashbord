@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-25T09:15:11.504Z",
+  "updatedAt": "2026-08-25T09:30:11.565Z",
   "total": 11,
   "items": [
     {
@@ -9,12 +9,12 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 873,
-      "weekRequests": 872,
+      "todayRequests": 957,
+      "weekRequests": 956,
       "fiveHour": 0,
-      "weekly": 3,
-      "fiveHourResetAt": "2026-08-25T17:15:11+08:00",
-      "weeklyResetAt": "2026-09-01T14:42:13+08:00"
+      "weekly": 4,
+      "fiveHourResetAt": "2026-08-25T17:30:11+08:00",
+      "weeklyResetAt": "2026-09-01T14:42:12+08:00"
     },
     {
       "id": 39,
@@ -22,11 +22,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 819,
-      "weekRequests": 818,
+      "todayRequests": 876,
+      "weekRequests": 874,
       "fiveHour": 0,
-      "weekly": 1,
-      "fiveHourResetAt": "2026-08-25T17:15:11+08:00",
+      "weekly": 2,
+      "fiveHourResetAt": "2026-08-25T17:30:11+08:00",
       "weeklyResetAt": "2026-09-01T14:47:29+08:00"
     },
     {
@@ -49,7 +49,7 @@ window.ACCOUNTS_DATA = {
       "status": "active",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 11414,
+      "weekRequests": 11072,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-21T10:30:11+08:00",
@@ -61,12 +61,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2865,
-      "weekRequests": 7427,
+      "todayRequests": 2984,
+      "weekRequests": 7546,
       "fiveHour": 0,
-      "weekly": 26,
-      "fiveHourResetAt": "2026-08-25T17:15:09+08:00",
-      "weeklyResetAt": "2026-08-31T09:02:05+08:00"
+      "weekly": 27,
+      "fiveHourResetAt": "2026-08-25T17:30:09+08:00",
+      "weeklyResetAt": "2026-08-31T09:02:04+08:00"
     },
     {
       "id": 36,
@@ -74,12 +74,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2870,
-      "weekRequests": 7056,
+      "todayRequests": 3040,
+      "weekRequests": 7226,
       "fiveHour": 0,
-      "weekly": 24,
-      "fiveHourResetAt": "2026-08-25T17:15:11+08:00",
-      "weeklyResetAt": "2026-08-31T09:02:06+08:00"
+      "weekly": 25,
+      "fiveHourResetAt": "2026-08-25T17:30:10+08:00",
+      "weeklyResetAt": "2026-08-31T09:02:05+08:00"
     },
     {
       "id": 26,
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1810,
-      "weekRequests": 3928,
+      "todayRequests": 1955,
+      "weekRequests": 4075,
       "fiveHour": 0,
-      "weekly": 5,
-      "fiveHourResetAt": "2026-08-25T17:15:09+08:00",
+      "weekly": 6,
+      "fiveHourResetAt": "2026-08-25T17:30:09+08:00",
       "weeklyResetAt": "2026-08-31T09:29:30+08:00"
     },
     {
@@ -100,12 +100,12 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 6011,
-      "weekRequests": 12271,
+      "todayRequests": 6296,
+      "weekRequests": 12557,
       "fiveHour": 0,
       "weekly": 44,
-      "fiveHourResetAt": "2026-08-25T17:15:11+08:00",
-      "weeklyResetAt": "2026-08-31T09:03:58+08:00"
+      "fiveHourResetAt": "2026-08-25T17:30:11+08:00",
+      "weeklyResetAt": "2026-08-31T09:03:57+08:00"
     },
     {
       "id": 28,
@@ -113,11 +113,11 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 4336,
-      "weekRequests": 5882,
+      "todayRequests": 4406,
+      "weekRequests": 5952,
       "fiveHour": 0,
       "weekly": 17,
-      "fiveHourResetAt": "2026-08-25T17:15:08+08:00",
+      "fiveHourResetAt": "2026-08-25T17:30:09+08:00",
       "weeklyResetAt": "2026-08-31T09:44:35+08:00"
     },
     {
