@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-26T12:45:11.313Z",
+  "updatedAt": "2026-08-27T01:00:12.760Z",
   "total": 11,
   "items": [
     {
@@ -9,12 +9,12 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5086,
-      "weekRequests": 5085,
+      "todayRequests": 62,
+      "weekRequests": 5277,
       "fiveHour": 0,
       "weekly": 16,
-      "fiveHourResetAt": "2026-08-26T20:45:11+08:00",
-      "weeklyResetAt": "2026-09-02T00:11:37+08:00"
+      "fiveHourResetAt": "2026-08-27T09:00:12+08:00",
+      "weeklyResetAt": "2026-09-02T00:11:36+08:00"
     },
     {
       "id": 39,
@@ -22,12 +22,12 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5451,
-      "weekRequests": 5451,
+      "todayRequests": 25,
+      "weekRequests": 5538,
       "fiveHour": 0,
       "weekly": 16,
-      "fiveHourResetAt": "2026-08-26T20:45:09+08:00",
-      "weeklyResetAt": "2026-09-02T07:07:14+08:00"
+      "fiveHourResetAt": "2026-08-27T09:00:11+08:00",
+      "weeklyResetAt": "2026-09-02T07:07:15+08:00"
     },
     {
       "id": 27,
@@ -49,7 +49,7 @@ window.ACCOUNTS_DATA = {
       "status": "error",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 1283,
+      "weekRequests": 901,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-21T10:30:11+08:00",
@@ -61,11 +61,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5468,
-      "weekRequests": 6067,
+      "todayRequests": 710,
+      "weekRequests": 7475,
       "fiveHour": 0,
-      "weekly": 21,
-      "fiveHourResetAt": "2026-08-26T20:45:09+08:00",
+      "weekly": 26,
+      "fiveHourResetAt": "2026-08-27T09:00:09+08:00",
       "weeklyResetAt": "2026-09-01T22:15:08+08:00"
     },
     {
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5198,
-      "weekRequests": 5587,
+      "todayRequests": 752,
+      "weekRequests": 6900,
       "fiveHour": 0,
-      "weekly": 19,
-      "fiveHourResetAt": "2026-08-26T20:45:09+08:00",
+      "weekly": 23,
+      "fiveHourResetAt": "2026-08-27T09:00:10+08:00",
       "weeklyResetAt": "2026-09-01T22:15:21+08:00"
     },
     {
@@ -87,12 +87,12 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2748,
-      "weekRequests": 2827,
+      "todayRequests": 1,
+      "weekRequests": 2928,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-26T20:45:08+08:00",
-      "weeklyResetAt": "2026-09-01T22:15:29+08:00"
+      "fiveHourResetAt": "2026-08-27T09:00:09+08:00",
+      "weeklyResetAt": "2026-09-01T22:15:30+08:00"
     },
     {
       "id": 37,
@@ -100,12 +100,12 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 7024,
-      "weekRequests": 7432,
+      "todayRequests": 1456,
+      "weekRequests": 9354,
       "fiveHour": 0,
-      "weekly": 30,
-      "fiveHourResetAt": "2026-08-26T20:45:10+08:00",
-      "weeklyResetAt": "2026-09-01T22:13:35+08:00"
+      "weekly": 39,
+      "fiveHourResetAt": "2026-08-27T09:00:11+08:00",
+      "weeklyResetAt": "2026-09-01T22:13:34+08:00"
     },
     {
       "id": 28,
@@ -113,12 +113,12 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1133,
-      "weekRequests": 1177,
+      "todayRequests": 0,
+      "weekRequests": 1176,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-26T20:45:08+08:00",
-      "weeklyResetAt": "2026-09-01T23:29:42+08:00"
+      "fiveHourResetAt": "2026-08-27T09:00:09+08:00",
+      "weeklyResetAt": "2026-09-01T23:29:43+08:00"
     },
     {
       "id": 29,
