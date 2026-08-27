@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-27T03:45:10.457Z",
+  "updatedAt": "2026-08-27T04:00:12.669Z",
   "total": 11,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1600,
-      "weekRequests": 6815,
+      "todayRequests": 1832,
+      "weekRequests": 7047,
       "fiveHour": 0,
-      "weekly": 22,
-      "fiveHourResetAt": "2026-08-27T11:45:10+08:00",
+      "weekly": 23,
+      "fiveHourResetAt": "2026-08-27T12:00:11+08:00",
       "weeklyResetAt": "2026-09-02T00:11:36+08:00"
     },
     {
@@ -22,12 +22,12 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1405,
-      "weekRequests": 6919,
+      "todayRequests": 1651,
+      "weekRequests": 7164,
       "fiveHour": 0,
-      "weekly": 22,
-      "fiveHourResetAt": "2026-08-27T11:45:09+08:00",
-      "weeklyResetAt": "2026-09-02T07:07:14+08:00"
+      "weekly": 23,
+      "fiveHourResetAt": "2026-08-27T12:00:12+08:00",
+      "weeklyResetAt": "2026-09-02T07:07:16+08:00"
     },
     {
       "id": 27,
@@ -49,7 +49,7 @@ window.ACCOUNTS_DATA = {
       "status": "error",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 2,
+      "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-21T10:30:11+08:00",
@@ -61,12 +61,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1909,
-      "weekRequests": 8675,
+      "todayRequests": 2095,
+      "weekRequests": 8860,
       "fiveHour": 0,
-      "weekly": 30,
-      "fiveHourResetAt": "2026-08-27T11:45:08+08:00",
-      "weeklyResetAt": "2026-09-01T22:15:07+08:00"
+      "weekly": 31,
+      "fiveHourResetAt": "2026-08-27T12:00:09+08:00",
+      "weeklyResetAt": "2026-09-01T22:15:08+08:00"
     },
     {
       "id": 36,
@@ -74,12 +74,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1881,
-      "weekRequests": 8029,
+      "todayRequests": 2076,
+      "weekRequests": 8225,
       "fiveHour": 0,
-      "weekly": 26,
-      "fiveHourResetAt": "2026-08-27T11:45:09+08:00",
-      "weeklyResetAt": "2026-09-01T22:15:21+08:00"
+      "weekly": 27,
+      "fiveHourResetAt": "2026-08-27T12:00:09+08:00",
+      "weeklyResetAt": "2026-09-01T22:15:20+08:00"
     },
     {
       "id": 26,
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 557,
-      "weekRequests": 3485,
+      "todayRequests": 577,
+      "weekRequests": 3505,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-27T11:45:08+08:00",
+      "fiveHourResetAt": "2026-08-27T12:00:09+08:00",
       "weeklyResetAt": "2026-09-01T22:15:29+08:00"
     },
     {
@@ -100,11 +100,11 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3507,
-      "weekRequests": 11405,
+      "todayRequests": 3824,
+      "weekRequests": 11722,
       "fiveHour": 0,
-      "weekly": 47,
-      "fiveHourResetAt": "2026-08-27T11:45:09+08:00",
+      "weekly": 48,
+      "fiveHourResetAt": "2026-08-27T12:00:10+08:00",
       "weeklyResetAt": "2026-09-01T22:13:34+08:00"
     },
     {
@@ -113,12 +113,12 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 295,
-      "weekRequests": 1472,
+      "todayRequests": 377,
+      "weekRequests": 1553,
       "fiveHour": 0,
       "weekly": 5,
-      "fiveHourResetAt": "2026-08-27T11:45:08+08:00",
-      "weeklyResetAt": "2026-09-01T23:29:42+08:00"
+      "fiveHourResetAt": "2026-08-27T12:00:09+08:00",
+      "weeklyResetAt": "2026-09-01T23:29:43+08:00"
     },
     {
       "id": 29,
