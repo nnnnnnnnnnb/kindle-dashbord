@@ -1,18 +1,150 @@
-(function (win) {
-  'use strict';
-
-  // Sanitized fixture derived from the supplied admin response. Credentials and proxy data are omitted.
-  win.ACCOUNTS_DATA = {
-    total: 8,
-    items: [
-      { id: 27, name: '客服_龙井的邮箱_0807', group: '客服', todayRequests: 2882, weekRequests: 9754, fiveHour: 0, weekly: 34, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:33:26+08:00' },
-      { id: 24, name: '森哥专属1', group: '森哥专属', todayRequests: 1886, weekRequests: 7022, fiveHour: 0, weekly: 28, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:30:19+08:00' },
-      { id: 26, name: '跟单宝补_0807——几乎没有报错', group: '跟单宝', todayRequests: 0, weekRequests: 2195, fiveHour: 0, weekly: 96, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:30:25+08:00' },
-      { id: 31, name: '长沙erp3', group: '长沙ERP专属', todayRequests: 225, weekRequests: 639, fiveHour: 0, weekly: 14, fiveHourResetAt: '2026-08-14T11:38:46+08:00', weeklyResetAt: '2026-08-20T17:09:26+08:00' },
-      { id: 32, name: '长沙erp4', group: '长沙ERP专属', todayRequests: 1375, weekRequests: 3386, fiveHour: 0, weekly: 70, fiveHourResetAt: '2026-08-14T11:38:46+08:00', weeklyResetAt: '2026-08-20T17:20:56+08:00' },
-      { id: 28, name: '黑脸号_ERP产品号', group: 'ERP产品', todayRequests: 860, weekRequests: 1590, fiveHour: 0, weekly: 45, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:33:45+08:00' },
-      { id: 29, name: '黑脸号_客服0803_20x', group: '', todayRequests: 0, weekRequests: 2166, fiveHour: 0, weekly: 100, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:30:55+08:00' },
-      { id: 25, name: '黑脸号_跟单宝_0806', group: '跟单宝', todayRequests: 661, weekRequests: 2283, fiveHour: 0, weekly: 98, fiveHourResetAt: '2026-08-14T11:38:45+08:00', weeklyResetAt: '2026-08-20T11:31:36+08:00' }
-    ]
-  };
-}(window));
+/* generated locally; do not add API keys */
+window.ACCOUNTS_DATA = {
+  "updatedAt": "2026-08-28T09:00:11.584Z",
+  "total": 11,
+  "items": [
+    {
+      "id": 38,
+      "name": "1",
+      "group": "客户端分组",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 5565,
+      "weekRequests": 5564,
+      "fiveHour": 0,
+      "weekly": 21,
+      "fiveHourResetAt": "2026-08-28T17:00:11+08:00",
+      "weeklyResetAt": "2026-09-04T01:07:56+08:00"
+    },
+    {
+      "id": 39,
+      "name": "2",
+      "group": "客服",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 4511,
+      "weekRequests": 4499,
+      "fiveHour": 0,
+      "weekly": 18,
+      "fiveHourResetAt": "2026-08-28T17:00:11+08:00",
+      "weeklyResetAt": "2026-09-04T00:34:33+08:00"
+    },
+    {
+      "id": 27,
+      "name": "客服_龙井的邮箱_0807",
+      "group": "客服",
+      "status": "error",
+      "schedulable": false,
+      "todayRequests": 0,
+      "weekRequests": 7575,
+      "fiveHour": 0,
+      "weekly": 25,
+      "fiveHourResetAt": "2026-08-25T12:15:43+08:00",
+      "weeklyResetAt": "2026-08-31T09:06:40+08:00"
+    },
+    {
+      "id": 34,
+      "name": "客服新号_0817_一周不到封号了",
+      "group": "客服",
+      "status": "error",
+      "schedulable": false,
+      "todayRequests": 0,
+      "weekRequests": 0,
+      "fiveHour": 0,
+      "weekly": 0,
+      "fiveHourResetAt": "2026-08-21T10:30:11+08:00",
+      "weeklyResetAt": "2026-08-24T16:33:38+08:00"
+    },
+    {
+      "id": 24,
+      "name": "森哥专属",
+      "group": "森哥专属",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 3170,
+      "weekRequests": 3169,
+      "fiveHour": 0,
+      "weekly": 12,
+      "fiveHourResetAt": "2026-08-28T17:00:09+08:00",
+      "weeklyResetAt": "2026-09-04T00:27:29+08:00"
+    },
+    {
+      "id": 36,
+      "name": "森哥专属2",
+      "group": "森哥专属",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 2823,
+      "weekRequests": 2807,
+      "fiveHour": 0,
+      "weekly": 10,
+      "fiveHourResetAt": "2026-08-28T17:00:09+08:00",
+      "weeklyResetAt": "2026-09-04T00:26:57+08:00"
+    },
+    {
+      "id": 26,
+      "name": "跟单宝补_0807",
+      "group": "跟单宝",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 1660,
+      "weekRequests": 1651,
+      "fiveHour": 0,
+      "weekly": 2,
+      "fiveHourResetAt": "2026-08-28T17:00:09+08:00",
+      "weeklyResetAt": "2026-09-04T09:27:54+08:00"
+    },
+    {
+      "id": 37,
+      "name": "长沙erp5",
+      "group": "长沙ERP专属",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 6537,
+      "weekRequests": 6438,
+      "fiveHour": 0,
+      "weekly": 21,
+      "fiveHourResetAt": "2026-08-28T17:00:09+08:00",
+      "weeklyResetAt": "2026-09-04T00:24:41+08:00"
+    },
+    {
+      "id": 28,
+      "name": "黑脸号_ERP产品号",
+      "group": "ERP产品",
+      "status": "active",
+      "schedulable": true,
+      "todayRequests": 730,
+      "weekRequests": 730,
+      "fiveHour": 0,
+      "weekly": 2,
+      "fiveHourResetAt": "2026-08-28T17:00:09+08:00",
+      "weeklyResetAt": "2026-09-04T09:39:18+08:00"
+    },
+    {
+      "id": 29,
+      "name": "黑脸号_客服0803_20x",
+      "group": "客服",
+      "status": "error",
+      "schedulable": false,
+      "todayRequests": 0,
+      "weekRequests": 3563,
+      "fiveHour": 0,
+      "weekly": 17,
+      "fiveHourResetAt": "2026-08-25T12:00:08+08:00",
+      "weeklyResetAt": "2026-08-31T09:04:38+08:00"
+    },
+    {
+      "id": 25,
+      "name": "黑脸号_跟单宝_0806",
+      "group": "跟单宝",
+      "status": "error",
+      "schedulable": false,
+      "todayRequests": 0,
+      "weekRequests": 3914,
+      "fiveHour": 0,
+      "weekly": 17,
+      "fiveHourResetAt": "2026-08-25T12:07:37+08:00",
+      "weeklyResetAt": "2026-08-31T09:16:25+08:00"
+    }
+  ]
+};
