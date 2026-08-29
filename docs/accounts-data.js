@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-29T05:45:11.371Z",
+  "updatedAt": "2026-08-29T06:00:11.380Z",
   "total": 11,
   "items": [
     {
@@ -13,7 +13,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 6838,
       "fiveHour": 0,
       "weekly": 26,
-      "fiveHourResetAt": "2026-08-29T13:45:11+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:11+08:00",
       "weeklyResetAt": "2026-09-04T01:07:56+08:00"
     },
     {
@@ -26,7 +26,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 5626,
       "fiveHour": 0,
       "weekly": 22,
-      "fiveHourResetAt": "2026-08-29T13:45:10+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:10+08:00",
       "weeklyResetAt": "2026-09-04T00:34:32+08:00"
     },
     {
@@ -65,7 +65,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3988,
       "fiveHour": 0,
       "weekly": 15,
-      "fiveHourResetAt": "2026-08-29T13:45:09+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:09+08:00",
       "weeklyResetAt": "2026-09-04T00:27:28+08:00"
     },
     {
@@ -78,7 +78,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3486,
       "fiveHour": 0,
       "weekly": 12,
-      "fiveHourResetAt": "2026-08-29T13:45:10+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:09+08:00",
       "weeklyResetAt": "2026-09-04T00:26:58+08:00"
     },
     {
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 157,
-      "weekRequests": 2322,
+      "todayRequests": 161,
+      "weekRequests": 2326,
       "fiveHour": 0,
       "weekly": 3,
-      "fiveHourResetAt": "2026-08-29T13:45:09+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:08+08:00",
       "weeklyResetAt": "2026-09-04T09:27:54+08:00"
     },
     {
@@ -117,7 +117,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 838,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-08-29T13:45:09+08:00",
+      "fiveHourResetAt": "2026-08-29T14:00:09+08:00",
       "weeklyResetAt": "2026-09-04T09:39:18+08:00"
     },
     {
