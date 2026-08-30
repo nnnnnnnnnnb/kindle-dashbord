@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-30T04:15:11.454Z",
+  "updatedAt": "2026-08-30T04:30:10.385Z",
   "total": 11,
   "items": [
     {
@@ -13,7 +13,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 132,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-30T12:15:11+08:00",
+      "fiveHourResetAt": "2026-08-30T12:30:10+08:00",
       "weeklyResetAt": "2026-09-06T10:01:29+08:00"
     },
     {
@@ -26,7 +26,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 6,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-30T12:15:10+08:00",
+      "fiveHourResetAt": "2026-08-30T12:30:09+08:00",
       "weeklyResetAt": "2026-09-06T10:08:22+08:00"
     },
     {
@@ -65,7 +65,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 142,
       "fiveHour": 0,
       "weekly": 1,
-      "fiveHourResetAt": "2026-08-30T12:15:09+08:00",
+      "fiveHourResetAt": "2026-08-30T12:30:08+08:00",
       "weeklyResetAt": "2026-09-06T05:40:58+08:00"
     },
     {
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 129,
-      "weekRequests": 128,
+      "todayRequests": 135,
+      "weekRequests": 135,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-30T12:15:09+08:00",
+      "fiveHourResetAt": "2026-08-30T12:30:08+08:00",
       "weeklyResetAt": "2026-09-06T09:00:08+08:00"
     },
     {
@@ -87,11 +87,11 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 38,
-      "weekRequests": 37,
+      "todayRequests": 41,
+      "weekRequests": 40,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-30T12:15:09+08:00",
+      "fiveHourResetAt": "2026-08-30T12:30:08+08:00",
       "weeklyResetAt": "2026-09-06T11:45:58+08:00"
     },
     {
@@ -117,8 +117,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-30T12:15:09+08:00",
-      "weeklyResetAt": "2026-09-06T12:15:09+08:00"
+      "fiveHourResetAt": "2026-08-30T12:30:08+08:00",
+      "weeklyResetAt": "2026-09-06T12:30:08+08:00"
     },
     {
       "id": 29,
