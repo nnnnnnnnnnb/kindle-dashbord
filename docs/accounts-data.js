@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-08-31T01:15:10.891Z",
+  "updatedAt": "2026-08-31T01:30:10.500Z",
   "total": 11,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 6,
-      "weekRequests": 274,
+      "todayRequests": 17,
+      "weekRequests": 285,
       "fiveHour": 0,
       "weekly": 1,
-      "fiveHourResetAt": "2026-08-31T09:15:10+08:00",
+      "fiveHourResetAt": "2026-08-31T09:30:10+08:00",
       "weeklyResetAt": "2026-09-06T10:01:29+08:00"
     },
     {
@@ -22,11 +22,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1,
-      "weekRequests": 20,
+      "todayRequests": 18,
+      "weekRequests": 37,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-31T09:15:09+08:00",
+      "fiveHourResetAt": "2026-08-31T09:30:09+08:00",
       "weeklyResetAt": "2026-09-06T10:08:21+08:00"
     },
     {
@@ -36,7 +36,7 @@ window.ACCOUNTS_DATA = {
       "status": "error",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 7575,
+      "weekRequests": 7563,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-25T12:15:43+08:00",
@@ -61,11 +61,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 11,
-      "weekRequests": 1058,
+      "todayRequests": 31,
+      "weekRequests": 1078,
       "fiveHour": 0,
       "weekly": 4,
-      "fiveHourResetAt": "2026-08-31T09:15:08+08:00",
+      "fiveHourResetAt": "2026-08-31T09:30:08+08:00",
       "weeklyResetAt": "2026-09-06T05:40:58+08:00"
     },
     {
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 23,
-      "weekRequests": 505,
+      "todayRequests": 73,
+      "weekRequests": 555,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-08-31T09:15:09+08:00",
+      "fiveHourResetAt": "2026-08-31T09:30:09+08:00",
       "weeklyResetAt": "2026-09-06T09:00:09+08:00"
     },
     {
@@ -88,24 +88,24 @@ window.ACCOUNTS_DATA = {
       "status": "active",
       "schedulable": true,
       "todayRequests": 23,
-      "weekRequests": 320,
+      "weekRequests": 319,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-08-31T09:15:08+08:00",
-      "weeklyResetAt": "2026-09-06T11:45:57+08:00"
+      "fiveHourResetAt": "2026-08-31T09:30:09+08:00",
+      "weeklyResetAt": "2026-09-06T11:45:59+08:00"
     },
     {
       "id": 37,
       "name": "长沙erp5",
       "group": "长沙ERP专属",
       "status": "active",
-      "schedulable": false,
+      "schedulable": true,
       "todayRequests": 0,
-      "weekRequests": 7210,
+      "weekRequests": 0,
       "fiveHour": 0,
-      "weekly": 24,
-      "fiveHourResetAt": "2026-08-29T11:15:09+08:00",
-      "weeklyResetAt": "2026-09-04T00:24:42+08:00"
+      "weekly": 0,
+      "fiveHourResetAt": "2026-08-31T09:30:09+08:00",
+      "weeklyResetAt": "2026-09-07T09:26:24+08:00"
     },
     {
       "id": 28,
@@ -113,11 +113,11 @@ window.ACCOUNTS_DATA = {
       "group": "ERP产品",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 0,
-      "weekRequests": 308,
+      "todayRequests": 53,
+      "weekRequests": 361,
       "fiveHour": 0,
-      "weekly": 1,
-      "fiveHourResetAt": "2026-08-31T09:15:08+08:00",
+      "weekly": 2,
+      "fiveHourResetAt": "2026-08-31T09:30:08+08:00",
       "weeklyResetAt": "2026-09-06T12:46:59+08:00"
     },
     {
@@ -127,7 +127,7 @@ window.ACCOUNTS_DATA = {
       "status": "error",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 3558,
+      "weekRequests": 3493,
       "fiveHour": 0,
       "weekly": 0,
       "fiveHourResetAt": "2026-08-25T12:00:08+08:00",
@@ -140,9 +140,9 @@ window.ACCOUNTS_DATA = {
       "status": "error",
       "schedulable": false,
       "todayRequests": 0,
-      "weekRequests": 3914,
+      "weekRequests": 3866,
       "fiveHour": 0,
-      "weekly": 17,
+      "weekly": 0,
       "fiveHourResetAt": "2026-08-25T12:07:37+08:00",
       "weeklyResetAt": "2026-08-31T09:16:25+08:00"
     }
