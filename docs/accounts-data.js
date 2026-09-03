@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-03T05:30:11.577Z",
+  "updatedAt": "2026-09-03T05:45:10.654Z",
   "total": 7,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2017,
-      "weekRequests": 17798,
+      "todayRequests": 2188,
+      "weekRequests": 17968,
       "fiveHour": 0,
-      "weekly": 71,
-      "fiveHourResetAt": "2026-09-03T13:30:08+08:00",
+      "weekly": 72,
+      "fiveHourResetAt": "2026-09-03T13:45:08+08:00",
       "weeklyResetAt": "2026-09-07T10:27:52+08:00"
     },
     {
@@ -22,11 +22,11 @@ window.ACCOUNTS_DATA = {
       "group": "客服",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1940,
-      "weekRequests": 14128,
+      "todayRequests": 2028,
+      "weekRequests": 14216,
       "fiveHour": 0,
-      "weekly": 55,
-      "fiveHourResetAt": "2026-09-03T13:30:11+08:00",
+      "weekly": 56,
+      "fiveHourResetAt": "2026-09-03T13:45:10+08:00",
       "weeklyResetAt": "2026-09-07T10:27:30+08:00"
     },
     {
@@ -35,11 +35,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1526,
-      "weekRequests": 15182,
+      "todayRequests": 1641,
+      "weekRequests": 15297,
       "fiveHour": 0,
-      "weekly": 55,
-      "fiveHourResetAt": "2026-09-03T13:30:08+08:00",
+      "weekly": 56,
+      "fiveHourResetAt": "2026-09-03T13:45:09+08:00",
       "weeklyResetAt": "2026-09-07T10:26:36+08:00"
     },
     {
@@ -48,11 +48,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1652,
-      "weekRequests": 16800,
+      "todayRequests": 1705,
+      "weekRequests": 16853,
       "fiveHour": 0,
       "weekly": 62,
-      "fiveHourResetAt": "2026-09-03T13:30:08+08:00",
+      "fiveHourResetAt": "2026-09-03T13:45:08+08:00",
       "weeklyResetAt": "2026-09-07T10:28:56+08:00"
     },
     {
@@ -61,12 +61,12 @@ window.ACCOUNTS_DATA = {
       "group": "跟单宝",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1835,
-      "weekRequests": 9476,
+      "todayRequests": 1971,
+      "weekRequests": 9612,
       "fiveHour": 0,
       "weekly": 15,
-      "fiveHourResetAt": "2026-09-03T13:30:08+08:00",
-      "weeklyResetAt": "2026-09-07T10:29:43+08:00"
+      "fiveHourResetAt": "2026-09-03T13:45:09+08:00",
+      "weeklyResetAt": "2026-09-07T10:29:44+08:00"
     },
     {
       "id": 37,
@@ -74,12 +74,12 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3939,
-      "weekRequests": 23918,
+      "todayRequests": 4094,
+      "weekRequests": 24072,
       "fiveHour": 0,
-      "weekly": 79,
-      "fiveHourResetAt": "2026-09-03T13:30:08+08:00",
-      "weeklyResetAt": "2026-09-07T10:28:39+08:00"
+      "weekly": 80,
+      "fiveHourResetAt": "2026-09-03T13:45:09+08:00",
+      "weeklyResetAt": "2026-09-07T10:28:40+08:00"
     },
     {
       "id": 28,
