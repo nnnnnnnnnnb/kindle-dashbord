@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-05T07:15:09.897Z",
+  "updatedAt": "2026-09-05T07:30:09.707Z",
   "total": 6,
   "items": [
     {
@@ -9,12 +9,12 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 131,
-      "weekRequests": 3754,
+      "todayRequests": 143,
+      "weekRequests": 3766,
       "fiveHour": 0,
       "weekly": 16,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
-      "weeklyResetAt": "2026-09-11T11:50:48+08:00"
+      "fiveHourResetAt": "2026-09-05T15:30:08+08:00",
+      "weeklyResetAt": "2026-09-11T11:50:47+08:00"
     },
     {
       "id": 39,
@@ -26,7 +26,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2505,
       "fiveHour": 0,
       "weekly": 9,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
+      "fiveHourResetAt": "2026-09-05T15:30:09+08:00",
       "weeklyResetAt": "2026-09-11T14:44:54+08:00"
     },
     {
@@ -35,11 +35,11 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 167,
-      "weekRequests": 22554,
+      "todayRequests": 168,
+      "weekRequests": 22555,
       "fiveHour": 0,
       "weekly": 82,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
+      "fiveHourResetAt": "2026-09-05T15:30:09+08:00",
       "weeklyResetAt": "2026-09-07T10:26:36+08:00"
     },
     {
@@ -48,12 +48,12 @@ window.ACCOUNTS_DATA = {
       "group": "森哥专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 326,
-      "weekRequests": 23726,
+      "todayRequests": 340,
+      "weekRequests": 23741,
       "fiveHour": 0,
       "weekly": 87,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
-      "weeklyResetAt": "2026-09-07T10:28:56+08:00"
+      "fiveHourResetAt": "2026-09-05T15:30:08+08:00",
+      "weeklyResetAt": "2026-09-07T10:28:55+08:00"
     },
     {
       "id": 26,
@@ -65,7 +65,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3531,
       "fiveHour": 0,
       "weekly": 9,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
+      "fiveHourResetAt": "2026-09-05T15:30:09+08:00",
       "weeklyResetAt": "2026-09-11T11:52:01+08:00"
     },
     {
@@ -78,8 +78,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 21209,
       "fiveHour": 0,
       "weekly": 86,
-      "fiveHourResetAt": "2026-09-05T15:15:09+08:00",
-      "weeklyResetAt": "2026-09-10T17:48:32+08:00"
+      "fiveHourResetAt": "2026-09-05T15:30:08+08:00",
+      "weeklyResetAt": "2026-09-10T17:48:31+08:00"
     }
   ]
 };
