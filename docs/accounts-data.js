@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-06T07:00:10.462Z",
+  "updatedAt": "2026-09-06T07:15:09.429Z",
   "total": 6,
   "items": [
     {
@@ -9,11 +9,11 @@ window.ACCOUNTS_DATA = {
       "group": "客户端分组",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 240,
-      "weekRequests": 4219,
+      "todayRequests": 259,
+      "weekRequests": 4237,
       "fiveHour": 0,
       "weekly": 20,
-      "fiveHourResetAt": "2026-09-06T15:00:09+08:00",
+      "fiveHourResetAt": "2026-09-06T15:15:08+08:00",
       "weeklyResetAt": "2026-09-11T11:50:48+08:00"
     },
     {
@@ -26,7 +26,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2734,
       "fiveHour": 0,
       "weekly": 10,
-      "fiveHourResetAt": "2026-09-06T15:00:09+08:00",
+      "fiveHourResetAt": "2026-09-06T15:15:08+08:00",
       "weeklyResetAt": "2026-09-11T14:44:54+08:00"
     },
     {
@@ -39,8 +39,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 24,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-06T15:00:10+08:00",
-      "weeklyResetAt": "2026-09-13T10:17:47+08:00"
+      "fiveHourResetAt": "2026-09-06T15:15:08+08:00",
+      "weeklyResetAt": "2026-09-13T10:17:46+08:00"
     },
     {
       "id": 36,
@@ -52,8 +52,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 174,
       "fiveHour": 0,
       "weekly": 1,
-      "fiveHourResetAt": "2026-09-06T15:00:09+08:00",
-      "weeklyResetAt": "2026-09-13T10:16:58+08:00"
+      "fiveHourResetAt": "2026-09-06T15:15:09+08:00",
+      "weeklyResetAt": "2026-09-13T10:16:59+08:00"
     },
     {
       "id": 26,
@@ -65,8 +65,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 4383,
       "fiveHour": 0,
       "weekly": 12,
-      "fiveHourResetAt": "2026-09-06T15:00:09+08:00",
-      "weeklyResetAt": "2026-09-11T11:52:01+08:00"
+      "fiveHourResetAt": "2026-09-06T15:15:09+08:00",
+      "weeklyResetAt": "2026-09-11T11:52:02+08:00"
     },
     {
       "id": 37,
@@ -74,11 +74,11 @@ window.ACCOUNTS_DATA = {
       "group": "长沙ERP专属",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 636,
-      "weekRequests": 292,
+      "todayRequests": 689,
+      "weekRequests": 345,
       "fiveHour": 0,
       "weekly": 1,
-      "fiveHourResetAt": "2026-09-06T15:00:09+08:00",
+      "fiveHourResetAt": "2026-09-06T15:15:08+08:00",
       "weeklyResetAt": "2026-09-13T10:17:53+08:00"
     }
   ]
