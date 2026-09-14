@@ -10,6 +10,8 @@ const configuredIds = String(process.env.SUB2API_ACCOUNT_IDS || '')
   .map((value) => Number(value.trim()))
   // 0/负数作为“不过滤”或无效占位值处理，避免把全部账号筛空。
   .filter((value) => Number.isInteger(value) && value > 0);
+const errorTimezone = 'Asia/Shanghai';
+const shanghaiOffsetMs = 8 * 60 * 60 * 1000;
 
 if (!adminKey) {
   throw new Error('缺少 SUB2API_ADMIN_KEY。请只在本地环境变量中设置管理员 Key。');
@@ -48,6 +50,14 @@ function responseItems(payload) {
   return [];
 }
 
+function responseTotal(payload) {
+  const data = responseData(payload) || {};
+  const rawTotal = data.total ?? payload?.total;
+  if (rawTotal == null || rawTotal === '') return null;
+  const total = Number(rawTotal);
+  return Number.isFinite(total) ? total : null;
+}
+
 function responsePageCount(payload, itemCount) {
   const data = responseData(payload) || {};
   const explicitPages = Number(data.pages ?? data.total_pages ?? payload?.pages);
@@ -59,6 +69,20 @@ function responsePageCount(payload, itemCount) {
     return Math.max(1, Math.ceil(total / pageSize));
   }
   return itemCount > 0 ? 1 : 0;
+}
+
+function shanghaiDayRange(now = new Date()) {
+  const shanghaiNow = new Date(now.getTime() + shanghaiOffsetMs);
+  const start = new Date(Date.UTC(
+    shanghaiNow.getUTCFullYear(),
+    shanghaiNow.getUTCMonth(),
+    shanghaiNow.getUTCDate(),
+  ) - shanghaiOffsetMs);
+  const end = new Date(start.getTime() + 24 * 60 * 60 * 1000 - 1);
+  return {
+    startTime: start.toISOString(),
+    endTime: end.toISOString(),
+  };
 }
 
 async function fetchAccounts() {
@@ -83,6 +107,29 @@ async function fetchAccounts() {
   return items;
 }
 
+async function fetchTodayErrors(accountIds) {
+  const { startTime, endTime } = shanghaiDayRange();
+  const results = await Promise.all(accountIds.map(async (accountId) => {
+    const query = new URLSearchParams({
+      page: '1',
+      page_size: '20',
+      view: 'all',
+      start_time: startTime,
+      end_time: endTime,
+      account_id: String(accountId),
+      phase: 'upstream',
+      category: 'upstream',
+      status_codes: '503',
+      sort_by: 'created_at',
+      sort_order: 'desc',
+      timezone: errorTimezone,
+    });
+    const payload = await request(`/api/v1/admin/ops/errors?${query}`);
+    return [String(accountId), responseTotal(payload)];
+  }));
+  return Object.fromEntries(results);
+}
+
 function post(pathname, body) {
   return request(pathname, { method: 'POST', body: JSON.stringify(body) });
 }
@@ -91,6 +138,7 @@ function pickAccounts(payload) {
   const items = responseItems(payload);
   const usage = payload.usage || {};
   const today = payload.today || {};
+  const errors = payload.errors || {};
   return items.map((item) => {
     const byWindow = usage[String(item.id)] || {};
     const fiveHour = byWindow.five_hour || {};
@@ -103,6 +151,7 @@ function pickAccounts(payload) {
       status: item.status || '',
       schedulable: item.schedulable !== false,
       todayRequests: todayStats.requests ?? null,
+      todayErrors: errors[String(item.id)] ?? null,
       weekRequests: sevenDay.window_stats?.requests ?? null,
       fiveHour: fiveHour.utilization ?? null,
       weekly: sevenDay.utilization ?? null,
@@ -128,8 +177,11 @@ async function main() {
     const requested = filter ? [...filter].join(',') : '接口返回的账号 ID 无效';
     throw new Error(`${filter ? `SUB2API_ACCOUNT_IDS 未匹配到账号（${requested}）` : requested}，未请求用量接口。请清除该变量或改用有效账号 ID。`);
   }
-  const usage = await post('/api/v1/admin/accounts/usage/batch', { account_ids: accountIds, force: true });
-  const today = await post('/api/v1/admin/accounts/today-stats/batch', { account_ids: accountIds });
+  const [usage, today, errors] = await Promise.all([
+    post('/api/v1/admin/accounts/usage/batch', { account_ids: accountIds, force: true }),
+    post('/api/v1/admin/accounts/today-stats/batch', { account_ids: accountIds }),
+    fetchTodayErrors(accountIds),
+  ]);
   const payload = {
     // 记录本次用量请求完成时间，页面展示它而不是页面打开时间。
     updatedAt: new Date().toISOString(),
@@ -138,6 +190,7 @@ async function main() {
       data: { items: selectedAccounts },
       usage: usage.data?.usage || {},
       today: today.data?.stats || {},
+      errors,
     }),
   };
   const output = `/* generated locally; do not add API keys */\nwindow.ACCOUNTS_DATA = ${JSON.stringify(payload, null, 2)};\n`;

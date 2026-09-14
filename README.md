@@ -1,6 +1,6 @@
 # Sub2API Account Renderer（Kindle 前端工作副本）
 
-这是一个面向 600×800 Kindle/e-ink 屏幕的黑白账号额度页面。页面只显示账号、今日请求、7d 剩余额度、7d 重置时间和 7d 请求总次数；账号名过长会截断，请求数超过 1000 会显示为两位小数的 K，例如 `2333 → 2.33K`。
+这是一个面向 600×800 Kindle/e-ink 屏幕的黑白账号额度页面。页面显示账号、今日请求、今日错误、7d 剩余额度、7d 重置时间和 7d 请求总次数；账号名过长会截断，请求数超过 1000 会显示为两位小数的 K，例如 `2333 → 2.33K`。
 
 ## 本地预览
 
@@ -31,6 +31,7 @@ npm run build
 - `/api/v1/admin/accounts`
 - `/api/v1/admin/accounts/usage/batch`
 - `/api/v1/admin/accounts/today-stats/batch`
+- `/api/v1/admin/ops/errors`（每个账号查询上海时区当天的 `upstream`/`503` 错误，只读取 `data.total`）
 
 脚本会先从账号列表接口自动提取全部账号 ID，再请求对应的总额度和今日统计。只提取 Kindle 需要的字段并写入 `web/accounts-data.js`，不会保存 API Key；分组字段虽然保留在数据中，但不会在页面展示。
 
