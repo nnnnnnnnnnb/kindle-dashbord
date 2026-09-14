@@ -19,6 +19,7 @@
   }
 
   function formatCount(value) {
+    if (value == null || value === '') return '—';
     var number = Number(value);
     if (!isFinite(number)) return '—';
     if (number >= 1000) return (number / 1000).toFixed(2) + 'K';
@@ -84,6 +85,7 @@
   function renderAccount(account) {
     var row = doc.createElement('article');
     var name = doc.createElement('div');
+    var errors = doc.createElement('div');
     var quota = doc.createElement('div');
     var reset = doc.createElement('div');
     var requests = doc.createElement('div');
@@ -97,6 +99,9 @@
     quota.className = 'quota-cell';
     quota.appendChild(quotaBlock(account));
 
+    errors.className = 'errors-cell';
+    errors.textContent = formatCount(account.todayErrors);
+
     reset.className = 'reset-cell';
     reset.textContent = resetText(account.weeklyResetAt);
 
@@ -105,6 +110,7 @@
 
     row.appendChild(name);
     row.appendChild(todayCell(account));
+    row.appendChild(errors);
     row.appendChild(quota);
     row.appendChild(reset);
     row.appendChild(requests);
@@ -140,6 +146,7 @@
           fiveHourResetAt: extra.codex_5h_reset_at,
           weeklyResetAt: extra.codex_7d_reset_at,
           todayRequests: item.todayRequests == null ? (item.today_request_count == null ? item.today && item.today.requests : item.today_request_count) : item.todayRequests,
+          todayErrors: item.todayErrors == null ? (item.today_error_count == null ? item.today && item.today.errors : item.today_error_count) : item.todayErrors,
           weekRequests: item.weekRequests == null ? (item.week_request_count == null ? item.weekly_request_count : item.week_request_count) : item.weekRequests,
           schedulable: item.schedulable
         };
@@ -147,12 +154,14 @@
     };
   }
 
-  function mergeBatchData(accountPayload, usagePayload, todayPayload) {
+  function mergeBatchData(accountPayload, usagePayload, todayPayload, errorPayload) {
     var normalized = normalizeResponse(accountPayload);
     var usageRoot = usagePayload && usagePayload.data ? usagePayload.data : usagePayload || {};
     var usage = usageRoot.usage || {};
     var todayRoot = todayPayload && todayPayload.data ? todayPayload.data : todayPayload || {};
     var today = todayRoot.stats || {};
+    var errorRoot = errorPayload && errorPayload.data ? errorPayload.data : errorPayload || {};
+    var errors = errorRoot.errors || {};
 
     normalized.items.forEach(function (account) {
       var byWindow = usage[String(account.id)] || {};
@@ -166,6 +175,7 @@
       account.fiveHourResetAt = fiveHour.resets_at;
       account.weeklyResetAt = sevenDay.resets_at;
       account.todayRequests = todayStats.requests;
+      if (errorPayload) account.todayErrors = errors[String(account.id)];
       account.weekRequests = sevenStats.requests;
     });
     return normalized;
@@ -176,9 +186,9 @@
     render();
   };
 
-  // Merge the three admin responses without exposing the admin key in the page.
-  win.renderAccountBatches = function (accountPayload, usagePayload, todayPayload) {
-    data = mergeBatchData(accountPayload, usagePayload, todayPayload);
+  // Merge admin responses without exposing the admin key in the page.
+  win.renderAccountBatches = function (accountPayload, usagePayload, todayPayload, errorPayload) {
+    data = mergeBatchData(accountPayload, usagePayload, todayPayload, errorPayload);
     render();
   };
 
