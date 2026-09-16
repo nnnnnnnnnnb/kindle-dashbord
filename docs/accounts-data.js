@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-16T05:00:11.836Z",
+  "updatedAt": "2026-09-16T05:15:11.801Z",
   "total": 9,
   "items": [
     {
@@ -14,7 +14,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2631,
       "fiveHour": 0,
       "weekly": 15,
-      "fiveHourResetAt": "2026-09-16T13:00:09+08:00",
+      "fiveHourResetAt": "2026-09-16T13:15:09+08:00",
       "weeklyResetAt": "2026-09-20T10:11:02+08:00"
     },
     {
@@ -28,7 +28,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3564,
       "fiveHour": 0,
       "weekly": 14,
-      "fiveHourResetAt": "2026-09-16T13:00:09+08:00",
+      "fiveHourResetAt": "2026-09-16T13:15:08+08:00",
       "weeklyResetAt": "2026-09-20T10:30:10+08:00"
     },
     {
@@ -42,7 +42,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3341,
       "fiveHour": 0,
       "weekly": 11,
-      "fiveHourResetAt": "2026-09-16T13:00:10+08:00",
+      "fiveHourResetAt": "2026-09-16T13:15:09+08:00",
       "weeklyResetAt": "2026-09-19T23:09:39+08:00"
     },
     {
@@ -51,13 +51,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 633,
+      "todayRequests": 636,
       "todayErrors": 111,
-      "weekRequests": 4675,
+      "weekRequests": 4678,
       "fiveHour": 0,
       "weekly": 19,
-      "fiveHourResetAt": "2026-09-16T13:00:11+08:00",
-      "weeklyResetAt": "2026-09-19T18:50:21+08:00"
+      "fiveHourResetAt": "2026-09-16T13:15:11+08:00",
+      "weeklyResetAt": "2026-09-19T18:50:22+08:00"
     },
     {
       "id": 24,
@@ -65,12 +65,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2147,
+      "todayRequests": 2184,
       "todayErrors": 0,
-      "weekRequests": 2146,
+      "weekRequests": 2183,
       "fiveHour": 0,
-      "weekly": 16,
-      "fiveHourResetAt": "2026-09-16T13:00:09+08:00",
+      "weekly": 17,
+      "fiveHourResetAt": "2026-09-16T13:15:09+08:00",
       "weeklyResetAt": "2026-09-23T09:25:17+08:00"
     },
     {
@@ -79,13 +79,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1686,
+      "todayRequests": 1711,
       "todayErrors": 0,
-      "weekRequests": 1685,
+      "weekRequests": 1711,
       "fiveHour": 0,
       "weekly": 14,
-      "fiveHourResetAt": "2026-09-16T13:00:09+08:00",
-      "weeklyResetAt": "2026-09-23T09:25:09+08:00"
+      "fiveHourResetAt": "2026-09-16T13:15:08+08:00",
+      "weeklyResetAt": "2026-09-23T09:25:08+08:00"
     },
     {
       "id": 44,
@@ -98,7 +98,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3450,
       "fiveHour": 0,
       "weekly": 15,
-      "fiveHourResetAt": "2026-09-16T13:00:11+08:00",
+      "fiveHourResetAt": "2026-09-16T13:15:11+08:00",
       "weeklyResetAt": "2026-09-19T16:27:09+08:00"
     },
     {
@@ -107,13 +107,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1613,
+      "todayRequests": 1691,
       "todayErrors": 0,
-      "weekRequests": 10461,
+      "weekRequests": 10538,
       "fiveHour": 0,
-      "weekly": 45,
-      "fiveHourResetAt": "2026-09-16T13:00:11+08:00",
-      "weeklyResetAt": "2026-09-19T16:09:48+08:00"
+      "weekly": 46,
+      "fiveHourResetAt": "2026-09-16T13:15:11+08:00",
+      "weeklyResetAt": "2026-09-19T16:09:49+08:00"
     },
     {
       "id": 37,
@@ -121,13 +121,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2182,
+      "todayRequests": 2254,
       "todayErrors": 0,
-      "weekRequests": 11267,
+      "weekRequests": 11340,
       "fiveHour": 0,
-      "weekly": 48,
-      "fiveHourResetAt": "2026-09-16T13:00:09+08:00",
-      "weeklyResetAt": "2026-09-19T16:11:39+08:00"
+      "weekly": 49,
+      "fiveHourResetAt": "2026-09-16T13:15:08+08:00",
+      "weeklyResetAt": "2026-09-19T16:11:38+08:00"
     }
   ]
 };
