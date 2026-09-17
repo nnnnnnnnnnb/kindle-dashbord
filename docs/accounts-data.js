@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-17T11:45:12.399Z",
+  "updatedAt": "2026-09-17T12:00:11.360Z",
   "total": 9,
   "items": [
     {
@@ -9,12 +9,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2540,
+      "todayRequests": 2604,
       "todayErrors": 0,
-      "weekRequests": 5269,
+      "weekRequests": 5333,
       "fiveHour": 0,
       "weekly": 22,
-      "fiveHourResetAt": "2026-09-17T19:45:10+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:09+08:00",
       "weeklyResetAt": "2026-09-20T10:11:02+08:00"
     },
     {
@@ -28,7 +28,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 1,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-17T19:45:10+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:09+08:00",
       "weeklyResetAt": "2026-09-24T16:19:35+08:00"
     },
     {
@@ -42,8 +42,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-17T19:45:10+08:00",
-      "weeklyResetAt": "2026-09-24T19:45:10+08:00"
+      "fiveHourResetAt": "2026-09-17T20:00:09+08:00",
+      "weeklyResetAt": "2026-09-24T20:00:09+08:00"
     },
     {
       "id": 43,
@@ -56,8 +56,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 5437,
       "fiveHour": 0,
       "weekly": 22,
-      "fiveHourResetAt": "2026-09-17T19:45:11+08:00",
-      "weeklyResetAt": "2026-09-19T18:50:21+08:00"
+      "fiveHourResetAt": "2026-09-17T20:00:11+08:00",
+      "weeklyResetAt": "2026-09-19T18:50:22+08:00"
     },
     {
       "id": 24,
@@ -65,12 +65,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 6285,
+      "todayRequests": 6379,
       "todayErrors": 0,
-      "weekRequests": 13555,
+      "weekRequests": 13649,
       "fiveHour": 0,
       "weekly": 73,
-      "fiveHourResetAt": "2026-09-17T19:45:10+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:09+08:00",
       "weeklyResetAt": "2026-09-23T09:25:17+08:00"
     },
     {
@@ -79,12 +79,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5975,
+      "todayRequests": 6126,
       "todayErrors": 0,
-      "weekRequests": 12427,
+      "weekRequests": 12580,
       "fiveHour": 0,
       "weekly": 72,
-      "fiveHourResetAt": "2026-09-17T19:45:09+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:08+08:00",
       "weeklyResetAt": "2026-09-23T09:25:08+08:00"
     },
     {
@@ -93,12 +93,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 431,
+      "todayRequests": 464,
       "todayErrors": 677,
-      "weekRequests": 4398,
+      "weekRequests": 4431,
       "fiveHour": 0,
       "weekly": 19,
-      "fiveHourResetAt": "2026-09-17T19:45:12+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:11+08:00",
       "weeklyResetAt": "2026-09-19T16:27:10+08:00"
     },
     {
@@ -107,12 +107,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 6130,
+      "todayRequests": 6309,
       "todayErrors": 0,
-      "weekRequests": 19612,
+      "weekRequests": 19791,
       "fiveHour": 0,
-      "weekly": 80,
-      "fiveHourResetAt": "2026-09-17T19:45:12+08:00",
+      "weekly": 81,
+      "fiveHourResetAt": "2026-09-17T20:00:11+08:00",
       "weeklyResetAt": "2026-09-19T16:09:49+08:00"
     },
     {
@@ -121,12 +121,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5631,
+      "todayRequests": 5751,
       "todayErrors": 0,
-      "weekRequests": 19439,
+      "weekRequests": 19559,
       "fiveHour": 0,
       "weekly": 82,
-      "fiveHourResetAt": "2026-09-17T19:45:09+08:00",
+      "fiveHourResetAt": "2026-09-17T20:00:08+08:00",
       "weeklyResetAt": "2026-09-19T16:11:39+08:00"
     }
   ]
