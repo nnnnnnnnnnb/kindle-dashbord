@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-09-27T01:30:14.853Z",
+  "updatedAt": "2026-09-27T01:45:12.222Z",
   "total": 11,
   "items": [
     {
@@ -14,8 +14,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:09+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:09+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:09+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:09+08:00"
     },
     {
       "id": 47,
@@ -56,8 +56,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:09+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:09+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:09+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:09+08:00"
     },
     {
       "id": 39,
@@ -70,8 +70,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:09+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:09+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:09+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:09+08:00"
     },
     {
       "id": 43,
@@ -84,8 +84,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:11+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:11+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:12+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:12+08:00"
     },
     {
       "id": 24,
@@ -98,8 +98,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:10+08:00",
-      "weeklyResetAt": "2026-10-04T08:00:16+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:10+08:00",
+      "weeklyResetAt": "2026-10-04T08:00:15+08:00"
     },
     {
       "id": 36,
@@ -112,8 +112,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:09+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:09+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:10+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:10+08:00"
     },
     {
       "id": 44,
@@ -126,8 +126,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:14+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:14+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:11+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:11+08:00"
     },
     {
       "id": 45,
@@ -140,8 +140,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:11+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:11+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:11+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:11+08:00"
     },
     {
       "id": 37,
@@ -154,8 +154,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 0,
       "fiveHour": 0,
       "weekly": 0,
-      "fiveHourResetAt": "2026-09-27T09:30:09+08:00",
-      "weeklyResetAt": "2026-10-04T09:30:09+08:00"
+      "fiveHourResetAt": "2026-09-27T09:45:09+08:00",
+      "weeklyResetAt": "2026-10-04T09:45:09+08:00"
     }
   ]
 };
