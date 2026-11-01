@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-11-01T04:30:14.581Z",
+  "updatedAt": "2026-11-01T04:45:12.937Z",
   "total": 14,
   "items": [
     {
@@ -14,7 +14,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3029,
       "fiveHour": 0,
       "weekly": 9,
-      "fiveHourResetAt": "2026-11-01T12:30:12+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:11+08:00",
       "weeklyResetAt": "2026-11-04T14:35:44+08:00"
     },
     {
@@ -70,7 +70,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2087,
       "fiveHour": 0,
       "weekly": 5,
-      "fiveHourResetAt": "2026-11-01T12:30:10+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:10+08:00",
       "weeklyResetAt": "2026-11-04T15:03:49+08:00"
     },
     {
@@ -84,8 +84,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2174,
       "fiveHour": 0,
       "weekly": 6,
-      "fiveHourResetAt": "2026-11-01T12:30:10+08:00",
-      "weeklyResetAt": "2026-11-04T15:30:11+08:00"
+      "fiveHourResetAt": "2026-11-01T12:45:09+08:00",
+      "weeklyResetAt": "2026-11-04T15:30:10+08:00"
     },
     {
       "id": 42,
@@ -98,8 +98,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 581,
       "fiveHour": 0,
       "weekly": 2,
-      "fiveHourResetAt": "2026-11-01T12:30:11+08:00",
-      "weeklyResetAt": "2026-11-04T14:47:24+08:00"
+      "fiveHourResetAt": "2026-11-01T12:45:10+08:00",
+      "weeklyResetAt": "2026-11-04T14:47:23+08:00"
     },
     {
       "id": 24,
@@ -112,8 +112,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 24116,
       "fiveHour": 0,
       "weekly": 68,
-      "fiveHourResetAt": "2026-11-01T12:30:11+08:00",
-      "weeklyResetAt": "2026-11-04T14:35:37+08:00"
+      "fiveHourResetAt": "2026-11-01T12:45:10+08:00",
+      "weeklyResetAt": "2026-11-04T14:35:36+08:00"
     },
     {
       "id": 36,
@@ -126,8 +126,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 27268,
       "fiveHour": 0,
       "weekly": 86,
-      "fiveHourResetAt": "2026-11-01T12:30:10+08:00",
-      "weeklyResetAt": "2026-11-04T14:35:24+08:00"
+      "fiveHourResetAt": "2026-11-01T12:45:09+08:00",
+      "weeklyResetAt": "2026-11-04T14:35:23+08:00"
     },
     {
       "id": 50,
@@ -140,8 +140,8 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 3372,
       "fiveHour": 0,
       "weekly": 25,
-      "fiveHourResetAt": "2026-11-01T12:30:14+08:00",
-      "weeklyResetAt": "2026-11-04T14:35:53+08:00"
+      "fiveHourResetAt": "2026-11-01T12:45:12+08:00",
+      "weeklyResetAt": "2026-11-04T14:35:51+08:00"
     },
     {
       "id": 49,
@@ -154,7 +154,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 4003,
       "fiveHour": 0,
       "weekly": 37,
-      "fiveHourResetAt": "2026-11-01T12:30:13+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:12+08:00",
       "weeklyResetAt": "2026-11-04T14:35:41+08:00"
     },
     {
@@ -168,7 +168,7 @@ window.ACCOUNTS_DATA = {
       "weekRequests": 2120,
       "fiveHour": 0,
       "weekly": 5,
-      "fiveHourResetAt": "2026-11-01T12:30:13+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:12+08:00",
       "weeklyResetAt": "2026-11-04T14:36:06+08:00"
     },
     {
@@ -177,12 +177,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 550,
+      "todayRequests": 551,
       "todayErrors": 0,
-      "weekRequests": 5655,
+      "weekRequests": 5656,
       "fiveHour": 0,
       "weekly": 48,
-      "fiveHourResetAt": "2026-11-01T12:30:12+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:11+08:00",
       "weeklyResetAt": "2026-11-06T04:39:31+08:00"
     },
     {
@@ -191,12 +191,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 423,
+      "todayRequests": 436,
       "todayErrors": 0,
-      "weekRequests": 5421,
+      "weekRequests": 5434,
       "fiveHour": 0,
       "weekly": 29,
-      "fiveHourResetAt": "2026-11-01T12:30:10+08:00",
+      "fiveHourResetAt": "2026-11-01T12:45:10+08:00",
       "weeklyResetAt": "2026-11-06T09:00:13+08:00"
     }
   ]
