@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-11-26T03:30:14.022Z",
+  "updatedAt": "2026-11-26T03:45:16.147Z",
   "total": 15,
   "items": [
     {
@@ -54,9 +54,9 @@ window.ACCOUNTS_DATA = {
       "todayRequests": 0,
       "todayErrors": 0,
       "weekRequests": null,
-      "fiveHour": 0,
+      "fiveHour": null,
       "weekly": null,
-      "fiveHourResetAt": "2026-11-26T08:30:12Z",
+      "fiveHourResetAt": null,
       "weeklyResetAt": null
     },
     {
@@ -79,12 +79,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 5511,
+      "todayRequests": 6003,
       "todayErrors": 1,
-      "weekRequests": 43445,
+      "weekRequests": 43936,
       "fiveHour": 0,
       "weekly": 100,
-      "fiveHourResetAt": "2026-11-26T11:30:10+08:00",
+      "fiveHourResetAt": "2026-11-26T11:45:10+08:00",
       "weeklyResetAt": "2026-11-30T16:05:15+08:00"
     },
     {
@@ -107,13 +107,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 855,
+      "todayRequests": 913,
       "todayErrors": 0,
-      "weekRequests": 4682,
+      "weekRequests": 4740,
       "fiveHour": 0,
-      "weekly": 45,
-      "fiveHourResetAt": "2026-11-26T11:30:11+08:00",
-      "weeklyResetAt": "2026-12-01T16:54:05+08:00"
+      "weekly": 46,
+      "fiveHourResetAt": "2026-11-26T11:45:12+08:00",
+      "weeklyResetAt": "2026-12-01T16:54:06+08:00"
     },
     {
       "id": 38,
@@ -121,12 +121,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 827,
+      "todayRequests": 931,
       "todayErrors": 0,
-      "weekRequests": 2546,
+      "weekRequests": 2650,
       "fiveHour": 0,
-      "weekly": 18,
-      "fiveHourResetAt": "2026-11-26T11:30:09+08:00",
+      "weekly": 19,
+      "fiveHourResetAt": "2026-11-26T11:45:09+08:00",
       "weeklyResetAt": "2026-12-02T14:12:11+08:00"
     },
     {
@@ -135,12 +135,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 335,
+      "todayRequests": 367,
       "todayErrors": 2,
-      "weekRequests": 936,
+      "weekRequests": 968,
       "fiveHour": 0,
       "weekly": 8,
-      "fiveHourResetAt": "2026-11-26T11:30:12+08:00",
+      "fiveHourResetAt": "2026-11-26T11:45:12+08:00",
       "weeklyResetAt": "2026-12-02T14:37:48+08:00"
     },
     {
@@ -149,12 +149,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 831,
+      "todayRequests": 900,
       "todayErrors": 1,
-      "weekRequests": 6108,
+      "weekRequests": 6177,
       "fiveHour": 0,
-      "weekly": 35,
-      "fiveHourResetAt": "2026-11-26T11:30:09+08:00",
+      "weekly": 36,
+      "fiveHourResetAt": "2026-11-26T11:45:09+08:00",
       "weeklyResetAt": "2026-12-01T16:41:23+08:00"
     },
     {
@@ -163,12 +163,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 934,
+      "todayRequests": 1062,
       "todayErrors": 2,
-      "weekRequests": 17724,
+      "weekRequests": 17852,
       "fiveHour": 0,
       "weekly": 64,
-      "fiveHourResetAt": "2026-11-26T11:30:10+08:00",
+      "fiveHourResetAt": "2026-11-26T11:45:10+08:00",
       "weeklyResetAt": "2026-11-30T11:48:55+08:00"
     },
     {
@@ -191,13 +191,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1026,
+      "todayRequests": 1120,
       "todayErrors": 5,
-      "weekRequests": 6810,
+      "weekRequests": 6904,
       "fiveHour": 0,
       "weekly": 24,
-      "fiveHourResetAt": "2026-11-26T11:30:09+08:00",
-      "weeklyResetAt": "2026-12-01T20:34:37+08:00"
+      "fiveHourResetAt": "2026-11-26T11:45:10+08:00",
+      "weeklyResetAt": "2026-12-01T20:34:38+08:00"
     },
     {
       "id": 54,
