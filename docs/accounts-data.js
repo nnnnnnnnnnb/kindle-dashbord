@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-11-26T12:45:16.010Z",
+  "updatedAt": "2026-11-27T01:00:17.192Z",
   "total": 15,
   "items": [
     {
@@ -37,7 +37,7 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 243,
+      "todayRequests": 0,
       "todayErrors": 0,
       "weekRequests": null,
       "fiveHour": null,
@@ -79,12 +79,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 23916,
-      "todayErrors": 1,
-      "weekRequests": 61850,
+      "todayRequests": 58,
+      "todayErrors": 0,
+      "weekRequests": 63387,
       "fiveHour": 0,
       "weekly": 100,
-      "fiveHourResetAt": "2026-11-26T20:45:10+08:00",
+      "fiveHourResetAt": "2026-11-27T09:00:10+08:00",
       "weeklyResetAt": "2026-11-30T16:05:15+08:00"
     },
     {
@@ -107,12 +107,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2300,
+      "todayRequests": 0,
       "todayErrors": 0,
-      "weekRequests": 6127,
+      "weekRequests": 6176,
       "fiveHour": 0,
       "weekly": 58,
-      "fiveHourResetAt": "2026-11-26T20:45:12+08:00",
+      "fiveHourResetAt": "2026-11-27T09:00:12+08:00",
       "weeklyResetAt": "2026-12-01T16:54:05+08:00"
     },
     {
@@ -121,13 +121,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 2894,
-      "todayErrors": 1,
-      "weekRequests": 4613,
+      "todayRequests": 9,
+      "todayErrors": 0,
+      "weekRequests": 4736,
       "fiveHour": 0,
-      "weekly": 34,
-      "fiveHourResetAt": "2026-11-26T20:45:10+08:00",
-      "weeklyResetAt": "2026-12-02T14:12:12+08:00"
+      "weekly": 35,
+      "fiveHourResetAt": "2026-11-27T09:00:10+08:00",
+      "weeklyResetAt": "2026-12-02T14:12:11+08:00"
     },
     {
       "id": 49,
@@ -135,12 +135,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1058,
-      "todayErrors": 5,
-      "weekRequests": 1660,
+      "todayRequests": 0,
+      "todayErrors": 0,
+      "weekRequests": 1685,
       "fiveHour": 0,
       "weekly": 13,
-      "fiveHourResetAt": "2026-11-26T20:45:11+08:00",
+      "fiveHourResetAt": "2026-11-27T09:00:12+08:00",
       "weeklyResetAt": "2026-12-02T14:37:47+08:00"
     },
     {
@@ -149,12 +149,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3630,
-      "todayErrors": 4,
-      "weekRequests": 8906,
+      "todayRequests": 39,
+      "todayErrors": 0,
+      "weekRequests": 9014,
       "fiveHour": 0,
-      "weekly": 50,
-      "fiveHourResetAt": "2026-11-26T20:45:10+08:00",
+      "weekly": 51,
+      "fiveHourResetAt": "2026-11-27T09:00:10+08:00",
       "weeklyResetAt": "2026-12-01T16:41:24+08:00"
     },
     {
@@ -163,12 +163,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3521,
-      "todayErrors": 15,
-      "weekRequests": 20311,
+      "todayRequests": 29,
+      "todayErrors": 0,
+      "weekRequests": 20340,
       "fiveHour": 0,
       "weekly": 73,
-      "fiveHourResetAt": "2026-11-26T20:45:10+08:00",
+      "fiveHourResetAt": "2026-11-27T09:00:11+08:00",
       "weeklyResetAt": "2026-11-30T11:48:55+08:00"
     },
     {
@@ -191,12 +191,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 3408,
-      "todayErrors": 13,
-      "weekRequests": 9192,
+      "todayRequests": 52,
+      "todayErrors": 0,
+      "weekRequests": 9246,
       "fiveHour": 0,
       "weekly": 34,
-      "fiveHourResetAt": "2026-11-26T20:45:10+08:00",
+      "fiveHourResetAt": "2026-11-27T09:00:10+08:00",
       "weeklyResetAt": "2026-12-01T20:34:37+08:00"
     },
     {
