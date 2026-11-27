@@ -1,6 +1,6 @@
 /* generated locally; do not add API keys */
 window.ACCOUNTS_DATA = {
-  "updatedAt": "2026-11-27T02:15:15.556Z",
+  "updatedAt": "2026-11-27T02:30:16.438Z",
   "total": 15,
   "items": [
     {
@@ -79,13 +79,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 1452,
+      "todayRequests": 1811,
       "todayErrors": 0,
-      "weekRequests": 64781,
+      "weekRequests": 65140,
       "fiveHour": 0,
       "weekly": 100,
-      "fiveHourResetAt": "2026-11-27T10:15:10+08:00",
-      "weeklyResetAt": "2026-11-30T16:05:16+08:00"
+      "fiveHourResetAt": "2026-11-27T10:30:10+08:00",
+      "weeklyResetAt": "2026-11-30T16:05:15+08:00"
     },
     {
       "id": 36,
@@ -107,13 +107,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 123,
+      "todayRequests": 164,
       "todayErrors": 0,
-      "weekRequests": 6299,
+      "weekRequests": 6340,
       "fiveHour": 0,
-      "weekly": 60,
-      "fiveHourResetAt": "2026-11-27T10:15:11+08:00",
-      "weeklyResetAt": "2026-12-01T16:54:05+08:00"
+      "weekly": 61,
+      "fiveHourResetAt": "2026-11-27T10:30:12+08:00",
+      "weeklyResetAt": "2026-12-01T16:54:06+08:00"
     },
     {
       "id": 38,
@@ -121,13 +121,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 76,
+      "todayRequests": 103,
       "todayErrors": 0,
-      "weekRequests": 4803,
+      "weekRequests": 4830,
       "fiveHour": 0,
       "weekly": 35,
-      "fiveHourResetAt": "2026-11-27T10:15:09+08:00",
-      "weeklyResetAt": "2026-12-02T14:12:11+08:00"
+      "fiveHourResetAt": "2026-11-27T10:30:10+08:00",
+      "weeklyResetAt": "2026-12-02T14:12:12+08:00"
     },
     {
       "id": 49,
@@ -135,13 +135,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 143,
+      "todayRequests": 164,
       "todayErrors": 0,
-      "weekRequests": 1828,
+      "weekRequests": 1848,
       "fiveHour": 0,
       "weekly": 15,
-      "fiveHourResetAt": "2026-11-27T10:15:11+08:00",
-      "weeklyResetAt": "2026-12-02T14:37:47+08:00"
+      "fiveHourResetAt": "2026-11-27T10:30:12+08:00",
+      "weeklyResetAt": "2026-12-02T14:37:48+08:00"
     },
     {
       "id": 42,
@@ -149,13 +149,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 406,
+      "todayRequests": 582,
       "todayErrors": 0,
-      "weekRequests": 9381,
+      "weekRequests": 9560,
       "fiveHour": 0,
-      "weekly": 53,
-      "fiveHourResetAt": "2026-11-27T10:15:09+08:00",
-      "weeklyResetAt": "2026-12-01T16:41:24+08:00"
+      "weekly": 54,
+      "fiveHourResetAt": "2026-11-27T10:30:09+08:00",
+      "weeklyResetAt": "2026-12-01T16:41:23+08:00"
     },
     {
       "id": 45,
@@ -163,12 +163,12 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 300,
-      "todayErrors": 1,
-      "weekRequests": 20612,
+      "todayRequests": 349,
+      "todayErrors": 2,
+      "weekRequests": 20660,
       "fiveHour": 0,
       "weekly": 74,
-      "fiveHourResetAt": "2026-11-27T10:15:10+08:00",
+      "fiveHourResetAt": "2026-11-27T10:30:10+08:00",
       "weeklyResetAt": "2026-11-30T11:48:55+08:00"
     },
     {
@@ -191,13 +191,13 @@ window.ACCOUNTS_DATA = {
       "group": "",
       "status": "active",
       "schedulable": true,
-      "todayRequests": 410,
+      "todayRequests": 501,
       "todayErrors": 1,
-      "weekRequests": 9605,
+      "weekRequests": 9695,
       "fiveHour": 0,
-      "weekly": 37,
-      "fiveHourResetAt": "2026-11-27T10:15:09+08:00",
-      "weeklyResetAt": "2026-12-01T20:34:37+08:00"
+      "weekly": 38,
+      "fiveHourResetAt": "2026-11-27T10:30:10+08:00",
+      "weeklyResetAt": "2026-12-01T20:34:38+08:00"
     },
     {
       "id": 54,
